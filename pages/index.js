@@ -44,6 +44,17 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%);'}}>
+          <div className="container mx-auto flex flex-col items-center">
+            <h2 className="font-bold text-4xl text-white">SERVICIO A DOMICILO</h2>
+            <p className="text-white text-center my-10" style={{fontSize: '24px', lineHeight: '150.5%;'}}>
+              ¡No Salgas de tu casa u oficina! Evaluamos y realizamos un diagnóstico 
+              completo de tu computadora a domicilio. Nuestro equipo de técnicos están 
+              capacitados para resolver cualquier problema de hardware o software en tu 
+              PC ó Laptop</p>
+            <button className="text-white font-bold rounded-md" style={{background: '#56C35B' , padding: '16px 24px'}} >Chatea con nosotros</button>
+          </div>
+        </section>
       </main>
     </Layout>
   )
