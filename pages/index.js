@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%);'}}>
+        <section className="py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
           <div className="container mx-auto flex flex-col items-center">
             <h2 className="font-bold text-4xl text-white">SERVICIO A DOMICILO</h2>
             <p className="text-white text-center my-10" style={{fontSize: '24px', lineHeight: '150.5%;'}}>
@@ -126,6 +126,17 @@ export default function Home() {
               <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum neque volutpat elit tempor id fusce. Urna sed nibh viverra odio. Enim sit velit purus justo, a commodo. </p>
               <button className="text-sm cursor-pointer hover:underline">Conversa con nosotros</button>
             </div>
+          </div>
+        </section>
+        <section className="py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
+          <div className="container mx-auto flex flex-col items-center">
+            <h2 className="font-bold text-center text-4xl text-white my-10">
+              CONTAMOS CON EL REGISTRO NACIONAL DE PROVEEDORES (RNP) 
+              PARA TRABAJAR CON EL ESTADO PERUANO.
+            </h2>
+            <button className="mt-16 text-white font-bold rounded-md" style={{background: '#56C35B' , padding: '16px 24px'}} >
+              Conversa con nosotros
+            </button>
           </div>
         </section>
       </main>
