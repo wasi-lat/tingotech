@@ -55,6 +55,79 @@ export default function Home() {
             <button className="text-white font-bold rounded-md" style={{background: '#56C35B' , padding: '16px 24px'}} >Chatea con nosotros</button>
           </div>
         </section>
+        <section className="container mx-auto my-10">
+          <div className="flex flex-col items-center my-10">
+            <h2 className="font-bold text-2xl">PROBLEMAS COMUNES</h2>          
+            <p className="text-gray-400 text-sm text-center w-80">
+              Te ayudamos a identificar a tiempo los problemas 
+              que puedas estar teniendo con tu computadora
+            </p>
+          </div>
+          <div className="flex">
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                <svg className="h-6 w-6">
+                  <use xlinkHref="#laptop"/>
+                </svg>
+              </div>
+              <h3 className="font-bold">Soporte Técnico de Laptops y PCs</h3>
+              <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum neque volutpat elit tempor id fusce. Urna sed nibh viverra odio. Enim sit velit purus justo, a commodo. </p>
+              <button className="text-sm cursor-pointer hover:underline">Conversa con nosotros</button>
+            </div>
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                <svg className="h-6 w-6">
+                  <use xlinkHref="#security"/>
+                </svg>
+              </div>
+              <h3 className="font-bold">Repotenciamiento de Equipos</h3>
+              <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum neque volutpat elit tempor id fusce. Urna sed nibh viverra odio. Enim sit velit purus justo, a commodo. </p>
+              <button className="text-sm cursor-pointer hover:underline">Conversa con nosotros</button>
+            </div>
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                <svg className="h-6 w-6">
+                  <use xlinkHref="#lightning"/>
+                </svg>
+              </div>
+              <h3 className="font-bold">Sofware Antivirus y Windows</h3>
+              <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum neque volutpat elit tempor id fusce. Urna sed nibh viverra odio. Enim sit velit purus justo, a commodo. </p>
+              <button className="text-sm cursor-pointer hover:underline">Conversa con nosotros</button>
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                <svg className="h-6 w-6">
+                  <use xlinkHref="#laptop"/>
+                </svg>
+              </div>
+              <h3 className="font-bold">Soporte Técnico de Laptops y PCs</h3>
+              <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum neque volutpat elit tempor id fusce. Urna sed nibh viverra odio. Enim sit velit purus justo, a commodo. </p>
+              <button className="text-sm cursor-pointer hover:underline">Conversa con nosotros</button>
+            </div>
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                <svg className="h-6 w-6">
+                  <use xlinkHref="#security"/>
+                </svg>
+              </div>
+              <h3 className="font-bold">Repotenciamiento de Equipos</h3>
+              <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum neque volutpat elit tempor id fusce. Urna sed nibh viverra odio. Enim sit velit purus justo, a commodo. </p>
+              <button className="text-sm cursor-pointer hover:underline">Conversa con nosotros</button>
+            </div>
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                <svg className="h-6 w-6">
+                  <use xlinkHref="#lightning"/>
+                </svg>
+              </div>
+              <h3 className="font-bold">Sofware Antivirus y Windows</h3>
+              <p className="text-sm py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum neque volutpat elit tempor id fusce. Urna sed nibh viverra odio. Enim sit velit purus justo, a commodo. </p>
+              <button className="text-sm cursor-pointer hover:underline">Conversa con nosotros</button>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   )
