@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
-import Navbaar from '@components/shared/navbar'
+import Navbar from '@components/shared/navbar'
+import Footer from '@components/shared/footer'
 import Symbols from '@components/shared/symbols'
 
 export default function Layout({ children }) {
@@ -55,10 +56,12 @@ export default function Layout({ children }) {
       </Head>
 
       <header>
-        <Navbaar />
+        <Navbar />
       </header>
 
       { children }
+
+      <Footer/>
 
       <Symbols/>
     </>
