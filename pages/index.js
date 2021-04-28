@@ -141,6 +141,47 @@ export default function Home() {
         </section>
         <section className="container mx-auto my-10">
           <div className="flex flex-col items-center my-10">
+            <h2 className="font-bold text-2xl">NUESTROS TRABAJOS</h2>          
+            <p className="text-gray-400 text-sm text-center w-80">
+              Conoce más acerca de nuestro trabajo.
+            </p>
+          </div>
+          <div className="flex">
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-1.jpeg" alt="Reparación #1" />
+            </div>
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-2.jpeg" alt="Reparación #2" />
+            </div>
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-3.jpeg" alt="Reparación #3" />
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-4.jpeg" alt="Reparación #4" />
+            </div>
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-5.jpeg" alt="Reparación #5" />
+            </div>
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-6.jpeg" alt="Reparación #6" />
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-7.jpeg" alt="Reparación #7" />
+            </div>
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-8.jpeg" alt="Reparación #8" />
+            </div>
+            <div className="w-1/3 p-3 block overflow-hidden h-96">
+              <img className="object-cover w-full h-full" src="/img/our-jobs/job-9.jpeg" alt="Reparación #9" />
+            </div>
+          </div>
+        </section>
+        <section className="container mx-auto my-10">
+          <div className="flex flex-col items-center my-10">
             <h2 className="font-bold text-2xl">NUESTRO EQUIPO</h2>          
             <p className="text-gray-400 text-sm text-center w-80">
               Conoce más acerca de nuestro equipo
