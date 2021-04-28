@@ -139,6 +139,37 @@ export default function Home() {
             </button>
           </div>
         </section>
+        <section className="container mx-auto my-10">
+          <div className="flex flex-col items-center my-10">
+            <h2 className="font-bold text-2xl">NUESTRO EQUIPO</h2>          
+            <p className="text-gray-400 text-sm text-center w-80">
+              Conoce más acerca de nuestro equipo
+            </p>
+          </div>
+          <div className="flex">
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="block overflow-hidden">
+                <img className="object-contain w-full h-full" src="/img/juancho.png" alt="Juanco" />
+              </div>
+              <p className="font-bold text-lg text-center mt-5">Kevin Juancho</p>
+              <p className="font-light text-lg italic text-center">CEO Fundador</p>
+            </div>
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="block overflow-hidden">
+                <img className="object-contain w-full h-full" src="/img/juancho.png" alt="Juanco" />
+              </div>
+              <p className="font-bold text-lg text-center mt-5">Kevin Juancho</p>
+              <p className="font-light text-lg italic text-center">CEO Fundador</p>
+            </div>
+            <div className="w-1/3 mx-5 py-6 px-8">
+              <div className="block overflow-hidden">
+                <img className="object-contain w-full h-full" src="/img/juancho.png" alt="Juanco" />
+              </div>
+              <p className="font-bold text-lg text-center mt-5">Kevin Juancho</p>
+              <p className="font-light text-lg italic text-center">CEO Fundador</p>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   )
