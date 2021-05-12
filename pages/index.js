@@ -199,6 +199,26 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="flex justify-around py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
+          <div className="block w-28 h-28 overflow-hidden">
+            <img className="object-contain w-full h-full" src="/img/brands/empresa_0.png" alt="KASPERSKY" />
+          </div>
+          <div className="flex justify-center items-center w-28 h-28 overflow-hidden">
+            <img className="object-contain w-60 h-60" src="/img/brands/empresa_1.png" alt="AMD" />
+          </div>
+          <div className="block w-28 h-28 overflow-hidden">
+            <img className="object-contain w-full h-full" src="/img/brands/empresa_2.png" alt="ESET" />
+          </div>
+          <div className="block w-28 h-28 overflow-hidden">
+            <img className="object-contain w-full h-full" src="/img/brands/empresa_3.png" alt="INTEL" />
+          </div>
+          <div className="flex justify-center items-center w-28 h-28 overflow-hidden">
+            <img className="object-contain w-60 h-60" src="/img/brands/empresa_4.png" alt="LENOVO" />
+          </div>
+          <div className="block w-28 h-28 overflow-hidden">
+            <img className="object-contain w-full h-full" src="/img/brands/empresa_5.png" alt="HP" />
+          </div>
+        </section>
         <section className="container mx-auto my-10">
           <div className="flex flex-col items-center my-10">
             <h2 className="font-bold text-2xl">NUESTRO EQUIPO</h2>          
