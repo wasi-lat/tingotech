@@ -1,5 +1,6 @@
 import Layout from '@components/layout'
 import BrandSlide from '@components/homepage/brand-slide'
+import TestimonialsSlides from '@components/homepage/testimonials-slides'
 
 export default function Home() {
   return (
@@ -129,6 +130,13 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="relative bg-no-repeat bg-fixed bg-cover" style={{backgroundImage: 'url(/img/bg-testimonials.png)'}}>
+          <span 
+            className="block absolute top-0 left-0 h-full w-full opacity-75" 
+            style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
+          </span>
+          <TestimonialsSlides/>
+        </section>
         <section className="container mx-auto my-10">
           <div className="flex flex-col items-center my-10">
             <h2 className="font-bold text-2xl">ENTIDADES QUE NOS RESPALDAN</h2>          
@@ -154,7 +162,7 @@ export default function Home() {
               CONTAMOS CON EL REGISTRO NACIONAL DE PROVEEDORES (RNP) 
               PARA TRABAJAR CON EL ESTADO PERUANO.
             </h2>
-            <button className="mt-16 text-white font-bold rounded-md" style={{background: '#56C35B' , padding: '16px 24px'}} >
+            <button className="text-white font-bold rounded-md" style={{background: '#56C35B' , padding: '16px 24px'}} >
               Conversa con nosotros
             </button>
           </div>
