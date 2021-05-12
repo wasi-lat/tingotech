@@ -230,6 +230,26 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="container mx-auto my-10">
+          <div className="flex flex-col items-center my-10">
+            <h2 className="font-bold text-2xl">ENCUENTRANOS</h2>          
+            <p className="text-gray-400 text-sm text-center w-80">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1240.159890967003!2d-76.00390859470079!3d-9.31003391194305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a64147eb2d60fb%3A0xabef18ecac7d4a4a!2sTingo%20Tech!5e0!3m2!1ses-419!2spe!4v1620782000731!5m2!1ses-419!2spe"
+            frameBorder="0"
+            allowFullScreen
+            title="AA.HH Brisas del Huallaga, Av. Arenales, comite 2 MZ. G, Tingo María , Perú"
+            style={{
+              height: "400px",
+              width: "100%",
+              marginTop: "15px",
+              background: "#999"
+            }}
+          />
+        </section>
       </main>
     </Layout>
   )
