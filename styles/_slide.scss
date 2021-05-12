@@ -4,3 +4,21 @@
     @apply justify-center;
   }
 }
+
+.dot {
+  @apply py-8;
+  
+  :focus{
+    @apply outline-none;
+  }
+
+  li {
+    .react-multi-carousel-dot--active{
+      @apply bg-second;
+    }
+
+    button {
+      @apply border-second;
+    }
+  }
+}
