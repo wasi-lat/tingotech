@@ -128,6 +128,25 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="container mx-auto my-10">
+          <div className="flex flex-col items-center my-10">
+            <h2 className="font-bold text-2xl">ENTIDADES QUE NOS RESPALDAN</h2>          
+            <p className="text-gray-400 text-sm text-center w-80">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div className="flex justify-around">
+            <div className="block w-72 h-72 overflow-hidden rounded-full bg-white">
+              <img className="object-contain w-full h-full" src="/img/entities/diconta.jpg" alt="DICONTA" />
+            </div>
+            <div className="flex justify-center items-center w-72 h-72 overflow-hidden rounded-full bg-white">
+              <img className="object-contain w-60 h-60" src="/img/entities/unas.png" alt="UNAS" />
+            </div>
+            <div className="block w-72 h-72 overflow-hidden rounded-full bg-white">
+              <img className="object-contain w-full h-full" src="/img/entities/pwt.png" alt="PWT" />
+            </div>
+          </div>
+        </section>
         <section className="py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
           <div className="container mx-auto flex flex-col items-center">
             <h2 className="font-medium text-center italic text-4xl text-white my-10">
