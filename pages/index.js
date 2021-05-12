@@ -130,7 +130,7 @@ export default function Home() {
         </section>
         <section className="py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
           <div className="container mx-auto flex flex-col items-center">
-            <h2 className="font-bold text-center text-4xl text-white my-10">
+            <h2 className="font-medium text-center italic text-4xl text-white my-10">
               CONTAMOS CON EL REGISTRO NACIONAL DE PROVEEDORES (RNP) 
               PARA TRABAJAR CON EL ESTADO PERUANO.
             </h2>
