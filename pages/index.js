@@ -6,12 +6,18 @@ export default function Home() {
   return (
     <Layout>
       <main>
-        <section className="bg-green-400">
-          <div className="container mx-auto bg-blue-400">
-            <h1>Primera parte de la pagina</h1>
+        <section className="pt-48 py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
+          <div className="container mx-auto flex flex-col items-center">
+            <h2 className="font-bold text-4xl text-white">SERVICIO A DOMICILO</h2>
+            <p className="text-white text-center my-10" style={{fontSize: '24px', lineHeight: '150.5%;'}}>
+              ¡No Salgas de tu casa u oficina! Evaluamos y realizamos un diagnóstico 
+              completo de tu computadora a domicilio. Nuestro equipo de técnicos están 
+              capacitados para resolver cualquier problema de hardware o software en tu 
+              PC ó Laptop</p>
+            <button className="text-white font-bold rounded-md bg-primary" style={{padding: '16px 24px'}} >Chatea con nosotros</button>
           </div>
         </section>
-        <section className="container mx-auto my-10">
+        <section id="about-us" className="container mx-auto my-10">
           <div className="flex flex-col items-center my-10">
             <h2 className="font-bold text-2xl">NUESTROS SERVICIOS</h2>          
             <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -54,10 +60,10 @@ export default function Home() {
               completo de tu computadora a domicilio. Nuestro equipo de técnicos están 
               capacitados para resolver cualquier problema de hardware o software en tu 
               PC ó Laptop</p>
-            <button className="text-white font-bold rounded-md" style={{background: '#56C35B' , padding: '16px 24px'}} >Chatea con nosotros</button>
+            <button className="text-white font-bold rounded-md bg-primary" style={{padding: '16px 24px'}} >Chatea con nosotros</button>
           </div>
         </section>
-        <section className="container mx-auto my-10">
+        <section id="services" className="container mx-auto my-10">
           <div className="flex flex-col items-center my-10">
             <h2 className="font-bold text-2xl">PROBLEMAS COMUNES</h2>          
             <p className="text-gray-400 text-sm text-center w-80">
@@ -162,7 +168,7 @@ export default function Home() {
               CONTAMOS CON EL REGISTRO NACIONAL DE PROVEEDORES (RNP) 
               PARA TRABAJAR CON EL ESTADO PERUANO.
             </h2>
-            <button className="text-white font-bold rounded-md" style={{background: '#56C35B' , padding: '16px 24px'}} >
+            <button className="text-white font-bold rounded-md bg-primary" style={{padding: '16px 24px'}} >
               Conversa con nosotros
             </button>
           </div>
@@ -211,7 +217,7 @@ export default function Home() {
         <section className="py-8" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
           <BrandSlide />
         </section>
-        <section className="container mx-auto my-10">
+        <section id="team" className="container mx-auto my-10">
           <div className="flex flex-col items-center my-10">
             <h2 className="font-bold text-2xl">NUESTRO EQUIPO</h2>          
             <p className="text-gray-400 text-sm text-center w-80">
