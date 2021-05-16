@@ -7,14 +7,21 @@ export default function Home() {
     <Layout>
       <main>
         <section className="pt-48 py-16" style={{background: 'linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)'}}>
-          <div className="container mx-auto flex flex-col items-center">
-            <h2 className="font-bold text-4xl text-white">SERVICIO A DOMICILO</h2>
-            <p className="text-white text-center my-10" style={{fontSize: '24px', lineHeight: '150.5%;'}}>
-              ¡No Salgas de tu casa u oficina! Evaluamos y realizamos un diagnóstico 
-              completo de tu computadora a domicilio. Nuestro equipo de técnicos están 
-              capacitados para resolver cualquier problema de hardware o software en tu 
-              PC ó Laptop</p>
-            <button className="text-white font-bold rounded-md bg-primary" style={{padding: '16px 24px'}} >Chatea con nosotros</button>
+          <div className="container mx-auto flex items-center">
+            <div className="w-1/2">
+              <h2 className="font-bold text-6xl text-white leading-tight">Generamos más <mark className="bg-second text-white">productividad</mark></h2>
+              <p className="my-5 text-sm font-light text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Mauris egestas convallis morbi quis.
+                Amet, mauris, cras nunc vitae ante sagittis.
+              </p>
+              <button className="text-white font-bold rounded-md bg-primary" style={{padding: '16px 24px'}} >Chatea con nosotros</button>
+            </div>
+            <div className="w-1/2" style={{height: '34rem'}}>
+              <svg className="w-full h-full">
+                <use xlinkHref="#tech-man"/>
+              </svg>
+            </div>
           </div>
         </section>
         <section id="about-us" className="container mx-auto my-10">
