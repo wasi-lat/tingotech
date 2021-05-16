@@ -32,7 +32,7 @@ export default function TestimonialsSlides(){
     >
       <div className="relative container mx-auto pt-16 pb-10 flex flex-col items-center">
         <img className="py-5" src="/img/double-quotes.png" alt="Double Quotes" />
-        <p className="pb-5 font-light italic text-center text-white w-5/12">
+        <p className="my-8 pb-5 font-light italic text-center text-white w-5/12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu est eu diam 
           condimentum quis. Tristique adipiscing mauris orci, velit purus consequat lectus. 
           Lectus arcu quis habitasse urna pulvinar nec nunc erat id.
@@ -44,7 +44,7 @@ export default function TestimonialsSlides(){
       </div>
       <div className="relative container mx-auto pt-16 pb-10 flex flex-col items-center">
         <img className="py-5" src="/img/double-quotes.png" alt="Double Quotes" />
-        <p className="pb-5 font-light italic text-center text-white w-5/12">
+        <p className="my-8 pb-5 font-light italic text-center text-white w-5/12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu est eu diam 
           condimentum quis. Tristique adipiscing mauris orci, velit purus consequat lectus. 
           Lectus arcu quis habitasse urna pulvinar nec nunc erat id.
