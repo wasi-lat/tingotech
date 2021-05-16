@@ -14,17 +14,17 @@ export default function Navbar() {
           </li>
         </ul>
         <ul className="flex items-center overflow-auto text-sm">
-          <li className="text-center w-24 mr-6 md:m-0">
+          <li className="hidden md:block text-center w-24 mr-6 md:m-0">
             <Link scroll={true} href="#about-us">
               <a title="Nosotros" className="text-white font-medium">Nosotros</a>
             </Link>
           </li>
-          <li className="text-center w-24 mr-6 md:m-0">
+          <li className="hidden md:block text-center w-24 mr-6 md:m-0">
             <Link scroll={true} href="#services">
               <a title="Servicios" className="text-white font-medium">Servicios</a>
             </Link>
           </li>
-          <li className="text-center w-24 mr-6 md:m-0">
+          <li className="hidden md:block text-center w-24 mr-6 md:m-0">
             <Link scroll={true} href="#team">
               <a title="Equipo" className="text-white font-medium">Equipo</a>
             </Link>
