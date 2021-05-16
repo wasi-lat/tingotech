@@ -1,0 +1,24 @@
+.react-multi-carousel-list {
+  li {
+    @apply flex;
+    @apply justify-center;
+  }
+}
+
+.dot {
+  @apply pt-16;
+  
+  :focus{
+    @apply outline-none;
+  }
+
+  li {
+    .react-multi-carousel-dot--active{
+      @apply bg-second;
+    }
+
+    button {
+      @apply border-second;
+    }
+  }
+}
