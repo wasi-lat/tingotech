@@ -14,7 +14,7 @@ export default function Footer() {
           </p>
         </div>
  
-        <div className="w-full md:w-3/12 ml-8 pt-7">
+        <div className="w-full md:w-3/12 pl-8 pt-7">
           <h3 className="font-bold mb-4">Contactos</h3>
           <ul>
             <li className="text-sm py-1 flex items-center">
@@ -32,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="w-full md:w-3/12 ml-8 pt-7">
+        <div className="w-full md:w-3/12 pl-8 pt-7">
           <h3 className="font-bold mb-4">Redes Sociales</h3>
           <ul>
             <li className="text-sm py-1 flex items-center">
@@ -46,7 +46,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="w-full md:w-2/12 ml-8 pt-7">
+        <div className="w-full md:w-2/12 pl-8 pt-7">
           <h3 className="font-bold mb-4">Pagos Aceptados</h3>
         </div>
 
