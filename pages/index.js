@@ -21,7 +21,7 @@ export default function Home() {
                 Generamos más{" "}
                 <mark className="bg-second text-white">productividad</mark>
               </h2>
-              <p className="my-5 text-sm font-light text-white">
+              <p className="mt-5 mb-8 text-sm font-light text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 egestas convallis morbi quis. Amet, mauris, cras nunc vitae ante
                 sagittis.
@@ -31,7 +31,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Chatea con nosotros"
-                  className="text-white font-bold rounded-md bg-primary cursor-pointer"
+                  className="text-white font-bold rounded-md bg-primary"
                   style={{ padding: "16px 24px" }}
                 >
                   Chatea con nosotros
@@ -126,7 +126,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Chatea con nosotros"
-                className="text-white font-bold rounded-md bg-primary cursor-pointer"
+                className="text-white font-bold rounded-md bg-primary"
                 style={{ padding: "16px 24px" }}
               >
                 Chatea con nosotros
@@ -160,7 +160,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Conversa con nosotros"
-                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                  className="text-sm underline opacity-50 hover:opacity-100"
                 >
                   Conversa con nosotros
                 </a>
@@ -181,7 +181,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Conversa con nosotros"
-                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                  className="text-sm underline opacity-50 hover:opacity-100"
                 >
                   Conversa con nosotros
                 </a>
@@ -203,7 +203,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Conversa con nosotros"
-                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                  className="text-sm underline opacity-50 hover:opacity-100"
                 >
                   Conversa con nosotros
                 </a>
@@ -226,7 +226,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Conversa con nosotros"
-                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                  className="text-sm underline opacity-50 hover:opacity-100"
                 >
                   Conversa con nosotros
                 </a>
@@ -248,7 +248,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Conversa con nosotros"
-                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                  className="text-sm underline opacity-50 hover:opacity-100"
                 >
                   Conversa con nosotros
                 </a>
@@ -269,7 +269,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Conversa con nosotros"
-                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                  className="text-sm underline opacity-50 hover:opacity-100"
                 >
                   Conversa con nosotros
                 </a>

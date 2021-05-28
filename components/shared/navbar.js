@@ -44,7 +44,7 @@ export default function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               title="Contáctanos"
-              className="text-white font-medium cursor-pointer"
+              className="text-white font-medium"
             >
               Contáctanos
             </a>
