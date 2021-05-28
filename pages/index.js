@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import Layout from "@components/layout";
 import BrandSlide from "@components/homepage/brand-slide";
 import TestimonialsSlides from "@components/homepage/testimonials-slides";
@@ -24,12 +26,17 @@ export default function Home() {
                 egestas convallis morbi quis. Amet, mauris, cras nunc vitae ante
                 sagittis.
               </p>
-              <button
-                className="text-white font-bold rounded-md bg-primary"
-                style={{ padding: "16px 24px" }}
-              >
-                Chatea con nosotros
-              </button>
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te queria consultar...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Chatea con nosotros"
+                  className="text-white font-bold rounded-md bg-primary cursor-pointer"
+                  style={{ padding: "16px 24px" }}
+                >
+                  Chatea con nosotros
+                </a>
+              </Link>
             </div>
             <div className="hidden md:block w-1/2" style={{ height: "34rem" }}>
               <svg className="w-full h-full">
@@ -114,12 +121,17 @@ export default function Home() {
               de técnicos están capacitados para resolver cualquier problema de
               hardware o software en tu PC ó Laptop
             </p>
-            <button
-              className="text-white font-bold rounded-md bg-primary"
-              style={{ padding: "16px 24px" }}
-            >
-              Chatea con nosotros
-            </button>
+            <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech quisiera pedir un servicio a domicilio para la dirección...">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Chatea con nosotros"
+                className="text-white font-bold rounded-md bg-primary cursor-pointer"
+                style={{ padding: "16px 24px" }}
+              >
+                Chatea con nosotros
+              </a>
+            </Link>
           </div>
         </section>
 
@@ -140,12 +152,19 @@ export default function Home() {
               </div>
               <h3 className="font-bold">Mi computadora no enciende</h3>
               <p className="text-sm py-3">
-                Estabas usando tu equipo normal y de pronto
-                al siguiente día dejó de encender.
+                Estabas usando tu equipo normal y de pronto al siguiente día
+                dejó de encender.
               </p>
-              <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
-                Conversa con nosotros
-              </button>
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, mi computadora no enciente 😢...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Conversa con nosotros"
+                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                >
+                  Conversa con nosotros
+                </a>
+              </Link>
             </div>
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
@@ -155,12 +174,18 @@ export default function Home() {
               </div>
               <h3 className="font-bold">Pantallazos azules</h3>
               <p className="text-sm py-3">
-                Cuando trabajas o cuando juegas, tenemos 
-                la solución	
+                Cuando trabajas o cuando juegas, tenemos la solución
               </p>
-              <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
-                Conversa con nosotros
-              </button>
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, me salen pantallazos azules 😢...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Conversa con nosotros"
+                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                >
+                  Conversa con nosotros
+                </a>
+              </Link>
             </div>
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
@@ -170,12 +195,19 @@ export default function Home() {
               </div>
               <h3 className="font-bold">Windows va muy lento</h3>
               <p className="text-sm py-3">
-                Enciende en una eternidad tu equipo o los
-                programas abren muy lento
+                Enciende en una eternidad tu equipo o los programas abren muy
+                lento
               </p>
-              <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
-                Conversa con nosotros
-              </button>
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, mi Windows va muy lento 😢...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Conversa con nosotros"
+                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                >
+                  Conversa con nosotros
+                </a>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col md:flex-row items-center md:items-stretch">
@@ -187,12 +219,18 @@ export default function Home() {
               </div>
               <h3 className="font-bold">He perdido o eliminado archivos</h3>
               <p className="text-sm py-3">
-                No te preocupes, recuperamos tus archivos
-                en tiempo récord.
+                No te preocupes, recuperamos tus archivos en tiempo récord.
               </p>
-              <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
-                Conversa con nosotros
-              </button>
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, he perdido (elimine!) todos mis archivos 😢...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Conversa con nosotros"
+                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                >
+                  Conversa con nosotros
+                </a>
+              </Link>
             </div>
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
@@ -202,11 +240,19 @@ export default function Home() {
               </div>
               <h3 className="font-bold">Tengo muchos virus en la máquina</h3>
               <p className="text-sm py-3">
-                Realizamos mantenimiento lógico a tu sistema, eliminación virus y prevención a futuras infecciones
+                Realizamos mantenimiento lógico a tu sistema, eliminación virus
+                y prevención a futuras infecciones
               </p>
-              <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
-                Conversa con nosotros
-              </button>
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, tengo muchos virus en la máquina 😢...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Conversa con nosotros"
+                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                >
+                  Conversa con nosotros
+                </a>
+              </Link>
             </div>
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
@@ -218,9 +264,16 @@ export default function Home() {
               <p className="text-sm py-3">
                 Traemos a la vida tus equipos que no encienden o no dan imagen
               </p>
-              <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
-                Conversa con nosotros
-              </button>
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, necesito urgente una reparación de placa 😢...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Conversa con nosotros"
+                  className="text-sm cursor-pointer underline opacity-50 hover:opacity-100"
+                >
+                  Conversa con nosotros
+                </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -287,12 +340,17 @@ export default function Home() {
               CONTAMOS CON EL REGISTRO NACIONAL DE PROVEEDORES (RNP) PARA
               TRABAJAR CON EL ESTADO PERUANO.
             </h2>
-            <button
-              className="text-white font-bold rounded-md bg-primary"
-              style={{ padding: "16px 24px" }}
-            >
-              Conversa con nosotros
-            </button>
+            <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola TingoTech, le escribimos de la institución {Escriba nombre de su institución aquí} para...">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Chatea con nosotros"
+                className="text-white font-bold rounded-md bg-primary"
+                style={{ padding: "16px 24px" }}
+              >
+                Conversa con nosotros
+              </a>
+            </Link>
           </div>
         </section>
 

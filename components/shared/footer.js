@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import { MapPin, Mail, Phone, Facebook, Instagram } from 'react-feather'
+
 
 export default function Footer() {
   return (
@@ -25,9 +27,17 @@ export default function Footer() {
               <Mail size={16} className="mr-1"/>
               info@tingotech.com
             </li>
-            <li className="text-sm py-1 flex items-center">
-              <Phone size={16} className="mr-1"/>
-              990 567 660
+            <li className="text-sm py-1">
+              <Link href="tel:+51-986-077-683">
+                <a
+                  className="flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <Phone size={16} className="mr-1"/>
+                  986 077 683
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -35,13 +45,29 @@ export default function Footer() {
         <div className="w-full md:w-3/12 pl-8 pt-7">
           <h3 className="font-bold mb-4">Redes Sociales</h3>
           <ul>
-            <li className="text-sm py-1 flex items-center">
-              <Facebook size={16} className="mr-1"/>
-              Facebook
+            <li className="text-sm py-1">
+              <Link href="https://www.facebook.com/tingotech">
+                <a
+                  className="flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <Facebook size={16} className="mr-1"/>
+                Facebook
+                </a>
+              </Link>
             </li>
             <li className="text-sm py-1 flex items-center">
-              <Instagram size={16} className="mr-1"/>
-              Instagram
+              <Link href="https://www.instagram.com/tingotech/">
+                <a
+                  className="flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <Instagram size={16} className="mr-1"/>
+                Instagram
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
