@@ -44,9 +44,9 @@ export default function Home() {
             <h2 className="font-bold text-center text-2xl mb-3">
               NUESTROS SERVICIOS
             </h2>
-            <p className="text-gray-400 text-center text-sm">
+            {/* <p className="text-gray-400 text-center text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+            </p> */}
           </div>
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
@@ -59,10 +59,11 @@ export default function Home() {
                 Soporte Técnico de Laptops y PCs
               </h3>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Nos encargamos de dar solución a cualquier problema relacionado
+                con tu laptop o PC, realizamos mantenimiento físico y lógico,
+                ello te ayudará prevenir futuros fallos, también contamos con
+                repuestos (HDDs, SSDs, Memorias RAM), reparación de bisagras,
+                reparación de placas, importación de placas nuevas.
               </p>
             </div>
             <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
@@ -73,10 +74,9 @@ export default function Home() {
               </div>
               <h3 className="font-bold pb-3">Repotenciamiento de Equipos</h3>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Realizamos un diagnóstico minucioso de tu computadora y
+                brindamos las recomendaciones apropiadas para que tu equipo gane
+                rendimiento.
               </p>
             </div>
             <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
@@ -87,10 +87,8 @@ export default function Home() {
               </div>
               <h3 className="font-bold pb-3">Sofware Antivirus y Windows</h3>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Contamos con licencias genuinas ESET NOD32 y Windows, ofrecemos
+                garantía por su compra.
               </p>
             </div>
           </div>
