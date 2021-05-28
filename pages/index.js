@@ -48,7 +48,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p> */}
           </div>
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex flex-col md:flex-row items-center md:items-stretch">
             <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
