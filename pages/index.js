@@ -31,7 +31,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Chatea con nosotros"
-                  className="text-white font-bold rounded-md bg-primary"
+                  className="text-white font-bold rounded-md bg-primary hover:opacity-90"
                   style={{ padding: "16px 24px" }}
                 >
                   Chatea con nosotros
@@ -126,7 +126,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Chatea con nosotros"
-                className="text-white font-bold rounded-md bg-primary"
+                className="text-white font-bold rounded-md bg-primary hover:opacity-90"
                 style={{ padding: "16px 24px" }}
               >
                 Chatea con nosotros
@@ -345,7 +345,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Chatea con nosotros"
-                className="text-white font-bold rounded-md bg-primary"
+                className="text-white font-bold rounded-md bg-primary hover:opacity-90"
                 style={{ padding: "16px 24px" }}
               >
                 Conversa con nosotros
