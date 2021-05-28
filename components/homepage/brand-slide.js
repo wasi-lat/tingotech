@@ -41,16 +41,24 @@ export default function BrandSlide(){
         </svg>
       </div>
       <div className="block h-20 md:h-32 overflow-hidden mx-5">
-        <img className="object-contain w-full h-full" src="/img/brands/empresa_2.png" alt="ESET" />
+        <svg className="object-contain w-full h-full text-white fill-current">
+          <use xlinkHref="#eset"/>
+        </svg>
       </div>
       <div className="block h-20 md:h-32 overflow-hidden mx-5">
-        <img className="object-contain w-full h-full" src="/img/brands/empresa_3.png" alt="INTEL" />
+        <svg className="object-contain w-full h-full text-white fill-current">
+          <use xlinkHref="#intel"/>
+        </svg>
       </div>
       <div className="flex justify-center items-center h-20 md:h-32 overflow-hidden mx-5">
-        <img className="object-contain w-60 h-60" src="/img/brands/empresa_4.png" alt="LENOVO" />
+        <svg className="object-contain w-full h-full text-white fill-current">
+          <use xlinkHref="#lenovo"/>
+        </svg>
       </div>
       <div className="block h-20 md:h-32 overflow-hidden mx-5">
-        <img className="object-contain w-full h-full" src="/img/brands/empresa_5.png" alt="HP" />
+        <svg className="object-contain w-full h-full text-white fill-current">
+          <use xlinkHref="#hp"/>
+        </svg>
       </div>
     </Carousel>
   )
