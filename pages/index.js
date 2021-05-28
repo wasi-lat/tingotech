@@ -131,19 +131,17 @@ export default function Home() {
               teniendo con tu computadora
             </p>
           </div>
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex flex-col md:flex-row items-center md:items-stretch">
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
                   <use xlinkHref="#laptop" />
                 </svg>
               </div>
-              <h3 className="font-bold">Soporte Técnico de Laptops y PCs</h3>
+              <h3 className="font-bold">Mi computadora no enciende</h3>
               <p className="text-sm py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Estabas usando tu equipo normal y de pronto
+                al siguiente día dejó de encender.
               </p>
               <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
                 Conversa con nosotros
@@ -155,12 +153,10 @@ export default function Home() {
                   <use xlinkHref="#security" />
                 </svg>
               </div>
-              <h3 className="font-bold">Repotenciamiento de Equipos</h3>
+              <h3 className="font-bold">Pantallazos azules</h3>
               <p className="text-sm py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Cuando trabajas o cuando juegas, tenemos 
+                la solución	
               </p>
               <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
                 Conversa con nosotros
@@ -172,31 +168,27 @@ export default function Home() {
                   <use xlinkHref="#lightning" />
                 </svg>
               </div>
-              <h3 className="font-bold">Sofware Antivirus y Windows</h3>
+              <h3 className="font-bold">Windows va muy lento</h3>
               <p className="text-sm py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Enciende en una eternidad tu equipo o los
+                programas abren muy lento
               </p>
               <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
                 Conversa con nosotros
               </button>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex flex-col md:flex-row items-center md:items-stretch">
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
                   <use xlinkHref="#laptop" />
                 </svg>
               </div>
-              <h3 className="font-bold">Soporte Técnico de Laptops y PCs</h3>
+              <h3 className="font-bold">He perdido o eliminado archivos</h3>
               <p className="text-sm py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                No te preocupes, recuperamos tus archivos
+                en tiempo récord.
               </p>
               <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
                 Conversa con nosotros
@@ -208,12 +200,9 @@ export default function Home() {
                   <use xlinkHref="#security" />
                 </svg>
               </div>
-              <h3 className="font-bold">Repotenciamiento de Equipos</h3>
+              <h3 className="font-bold">Tengo muchos virus en la máquina</h3>
               <p className="text-sm py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Realizamos mantenimiento lógico a tu sistema, eliminación virus y prevención a futuras infecciones
               </p>
               <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
                 Conversa con nosotros
@@ -225,12 +214,9 @@ export default function Home() {
                   <use xlinkHref="#lightning" />
                 </svg>
               </div>
-              <h3 className="font-bold">Sofware Antivirus y Windows</h3>
+              <h3 className="font-bold">Reparación de placas</h3>
               <p className="text-sm py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non
-                tellus nullam ut habitasse sit. Vitae, porttitor vel fermentum
-                neque volutpat elit tempor id fusce. Urna sed nibh viverra odio.
-                Enim sit velit purus justo, a commodo.{" "}
+                Traemos a la vida tus equipos que no encienden o no dan imagen
               </p>
               <button className="text-sm cursor-pointer underline opacity-50 hover:opacity-100">
                 Conversa con nosotros
