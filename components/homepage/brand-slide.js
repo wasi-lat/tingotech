@@ -31,32 +31,32 @@ export default function BrandSlide(){
       transitionDuration={500}
     >
       <div className="block h-20 md:h-32 overflow-hidden mx-5">
-        <svg className="object-contain w-full h-full text-white fill-current">
+        <svg className="object-contain w-full h-full text-white fill-current opacity-75">
           <use xlinkHref="#kaspersky"/>
         </svg>
       </div>
       <div className="flex justify-center items-center h-20 md:h-32 overflow-hidden mx-5">
-        <svg className="object-contain w-full h-full text-white fill-current">
+        <svg className="object-contain w-full h-full text-white fill-current opacity-75">
           <use xlinkHref="#amd"/>
         </svg>
       </div>
       <div className="block h-20 md:h-32 overflow-hidden mx-5">
-        <svg className="object-contain w-full h-full text-white fill-current">
+        <svg className="object-contain w-full h-full text-white fill-current opacity-75">
           <use xlinkHref="#eset"/>
         </svg>
       </div>
       <div className="block h-20 md:h-32 overflow-hidden mx-5">
-        <svg className="object-contain w-full h-full text-white fill-current">
+        <svg className="object-contain w-full h-full text-white fill-current opacity-75">
           <use xlinkHref="#intel"/>
         </svg>
       </div>
       <div className="flex justify-center items-center h-20 md:h-32 overflow-hidden mx-5">
-        <svg className="object-contain w-full h-full text-white fill-current">
+        <svg className="object-contain w-full h-full text-white fill-current opacity-75">
           <use xlinkHref="#lenovo"/>
         </svg>
       </div>
       <div className="block h-20 md:h-32 overflow-hidden mx-5">
-        <svg className="object-contain w-full h-full text-white fill-current">
+        <svg className="object-contain w-full h-full text-white fill-current opacity-75">
           <use xlinkHref="#hp"/>
         </svg>
       </div>
