@@ -6,13 +6,13 @@ export default function Footer() {
   return (
     <footer className="text-white" style={{backgroundColor: '#113423'}}>
       <div className="container mx-auto flex flex-col md:flex-row pt-10 pb-10">
-        <div className="w-full md:w-4/12 px-5 md:mx-28">
+        <div className="flex flex-col items-center w-full md:w-4/12 px-5 md:mx-28">
           <img className="pb-4" src="/img/logo.png" alt="Logo TingoTech" />
           <p className="text-xs">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
-            et tempus vitae, ut diam sapien. Nibh sollicitudin scelerisque cursus
-            arcu tempus semper euismod. Tempor, aenean odio pharetra penatibus
-            dui, non aenean enim.
+            Tingo Tech es una empresa joven emprendedora que brinda 
+            soluciones innovadoras en el sector informático, 
+            contribuyendo al desarrollo de la comunidad tingaleza 
+            con responsabilidad social.
           </p>
         </div>
  
@@ -83,7 +83,7 @@ export default function Footer() {
       </div>
 
       <div className="py-1 text-center text-xs bg-black text-white font-light">
-        <p>Made with Coffe by <b>Potato</b></p>
+        <p>Made with Coffe by <b>Goplatin</b></p>
       </div>
 
     </footer>

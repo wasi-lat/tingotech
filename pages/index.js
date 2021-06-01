@@ -22,9 +22,9 @@ export default function Home() {
                 <mark className="bg-second text-white">productividad</mark>
               </h2>
               <p className="mt-5 mb-8 text-sm font-light text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                egestas convallis morbi quis. Amet, mauris, cras nunc vitae ante
-                sagittis.
+                Nos enfocamos en que todas tus actividades sean mucho más productivas, 
+                nuestra prioridad es el logro de tus objetivos de cualquier tipo 
+                (profesional, entretenimiento, gamer, académico, etc).
               </p>
               <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te queria consultar...">
                 <a
@@ -297,9 +297,9 @@ export default function Home() {
             <h2 className="font-bold text-2xl mb-3 text-center">
               ENTIDADES QUE NOS RESPALDAN
             </h2>
-            <p className="text-gray-400 text-sm text-center w-80">
+            {/* <p className="text-gray-400 text-sm text-center w-80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+            </p> */}
           </div>
           <div className="flex justify-center">
             <div className="flex justify-around w-full md:w-4/6">
@@ -521,61 +521,50 @@ export default function Home() {
               Conoce más acerca de nuestro equipo
             </p>
           </div>
-          <div className="flex flex-col md:flex-row items-center md:justify-center">
-            <div className="w-full md:w-1/5 mx-5 py-6 px-8">
-              <div className="block overflow-hidden">
-                <img
-                  className="object-contain w-full h-full"
-                  src="/img/juancho.png"
-                  alt="Juanco"
-                />
-              </div>
-              <p className="font-bold text-lg text-center mt-5">
-                Kevin Juancho
-              </p>
-              <p className="font-light text-lg italic text-center">
-                CEO Fundador
-              </p>
-            </div>
-            <div className="w-full md:w-1/5 mx-5 py-6 px-8">
-              <div className="block overflow-hidden">
-                <img
-                  className="object-contain w-full h-full"
-                  src="/img/juancho.png"
-                  alt="Juanco"
-                />
-              </div>
-              <p className="font-bold text-lg text-center mt-5">
-                Kevin Juancho
-              </p>
-              <p className="font-light text-lg italic text-center">
-                CEO Fundador
-              </p>
-            </div>
-            <div className="w-full md:w-1/5 mx-5 py-6 px-8">
-              <div className="block overflow-hidden">
-                <img
-                  className="object-contain w-full h-full"
-                  src="/img/juancho.png"
-                  alt="Juanco"
-                />
-              </div>
-              <p className="font-bold text-lg text-center mt-5">
-                Kevin Juancho
-              </p>
-              <p className="font-light text-lg italic text-center">
-                CEO Fundador
-              </p>
-            </div>
+          <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center">
+            <Link href="https://pe.linkedin.com/in/kevienfox">
+              <a title="Kevin" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
+                <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
+                  <img
+                    className="object-contain w-full h-full"
+                    src="/img/kevin.jpg"
+                    alt="kevin"
+                  />
+                </div>
+                <p className="font-bold text-lg text-center mt-5">
+                  Kevin
+                </p>
+                <p className="font-light text-lg italic text-center">
+                  General Manager
+                </p>
+              </a>
+            </Link>
+            <Link href="https://www.linkedin.com/in/paulotijero">
+              <a title="Juan" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
+                <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
+                  <img
+                    className="object-cover w-full h-full"
+                    src="/img/juan.jpg"
+                    alt="Juan"
+                  />
+                </div>
+                <p className="font-bold text-lg text-center mt-5">
+                  Juancho
+                </p>
+                <p className="font-light text-lg italic text-center">
+                  Founder & Technical leader
+                </p>
+              </a>
+            </Link>
           </div>
         </section>
 
         <section className="container mx-auto py-20">
           <div className="flex flex-col items-center mb-10">
             <h2 className="font-bold text-2xl mb-3">ENCUENTRANOS</h2>
-            <p className="text-gray-400 text-sm text-center w-80">
+            {/* <p className="text-gray-400 text-sm text-center w-80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+            </p> */}
           </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1240.159890967003!2d-76.00390859470079!3d-9.31003391194305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a64147eb2d60fb%3A0xabef18ecac7d4a4a!2sTingo%20Tech!5e0!3m2!1ses-419!2spe!4v1620782000731!5m2!1ses-419!2spe"
