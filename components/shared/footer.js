@@ -83,7 +83,7 @@ export default function Footer() {
       </div>
 
       <div className="py-1 text-center text-xs bg-black text-white font-light">
-        <p>Made with Coffe by <b>Potato</b></p>
+        <p>Made with Coffe by <b>Goplatin</b></p>
       </div>
 
     </footer>
