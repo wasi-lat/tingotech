@@ -528,11 +528,11 @@ export default function Home() {
                   <img
                     className="object-contain w-full h-full"
                     src="/img/kevin.jpg"
-                    alt="kevin"
+                    alt="Kevin Espinoza Bravo"
                   />
                 </div>
                 <p className="font-bold text-lg text-center mt-5">
-                  Kevin
+                  Kevin Espinoza Bravo
                 </p>
                 <p className="font-light text-lg italic text-center">
                   General Manager
@@ -545,11 +545,11 @@ export default function Home() {
                   <img
                     className="object-cover w-full h-full"
                     src="/img/juan.jpg"
-                    alt="Juan"
+                    alt="David Juancho"
                   />
                 </div>
                 <p className="font-bold text-lg text-center mt-5">
-                  Juancho
+                  David Juancho
                 </p>
                 <p className="font-light text-lg italic text-center">
                   Founder & Technical leader
