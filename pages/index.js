@@ -535,7 +535,7 @@ export default function Home() {
                   Kevin Espinoza Bravo
                 </p>
                 <p className="font-light text-lg italic text-center">
-                  General Manager
+                  Co-Founder & General Manager
                 </p>
               </a>
             </Link>
@@ -552,7 +552,7 @@ export default function Home() {
                   David Juancho
                 </p>
                 <p className="font-light text-lg italic text-center">
-                  Founder & Technical leader
+                  Co-Founder & Technical Leader
                 </p>
               </a>
             </Link>
