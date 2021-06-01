@@ -74,10 +74,10 @@ export default function Footer() {
 
         <div className="w-full md:w-2/12 pl-8 pt-7">
           <h3 className="font-bold mb-4">Pagos Aceptados</h3>
-          <i class="m-0.5 fab fa-cc-visa" title="Visa"></i>
-          <i class="m-0.5 fab fa-cc-mastercard" title="Mastercard"></i>
-          <i class="m-0.5 fab fa-cc-paypal" title="Paypal"></i>
-          <i class="m-0.5 fas fa-money-check-alt" title="Efectivo"></i>
+          <i className="m-0.5 fab fa-cc-visa" title="Visa"></i>
+          <i className="m-0.5 fab fa-cc-mastercard" title="Mastercard"></i>
+          <i className="m-0.5 fab fa-cc-paypal" title="Paypal"></i>
+          <i className="m-0.5 fas fa-money-check-alt" title="Efectivo"></i>
         </div>
 
       </div>
