@@ -521,52 +521,41 @@ export default function Home() {
               Conoce más acerca de nuestro equipo
             </p>
           </div>
-          <div className="flex flex-col md:flex-row items-center md:justify-center">
-            <div className="w-full md:w-1/5 mx-5 py-6 px-8">
-              <div className="block overflow-hidden">
-                <img
-                  className="object-contain w-full h-full"
-                  src="/img/juancho.png"
-                  alt="Juanco"
-                />
-              </div>
-              <p className="font-bold text-lg text-center mt-5">
-                Kevin Juancho
-              </p>
-              <p className="font-light text-lg italic text-center">
-                CEO Fundador
-              </p>
-            </div>
-            <div className="w-full md:w-1/5 mx-5 py-6 px-8">
-              <div className="block overflow-hidden">
-                <img
-                  className="object-contain w-full h-full"
-                  src="/img/juancho.png"
-                  alt="Juanco"
-                />
-              </div>
-              <p className="font-bold text-lg text-center mt-5">
-                Kevin Juancho
-              </p>
-              <p className="font-light text-lg italic text-center">
-                CEO Fundador
-              </p>
-            </div>
-            <div className="w-full md:w-1/5 mx-5 py-6 px-8">
-              <div className="block overflow-hidden">
-                <img
-                  className="object-contain w-full h-full"
-                  src="/img/juancho.png"
-                  alt="Juanco"
-                />
-              </div>
-              <p className="font-bold text-lg text-center mt-5">
-                Kevin Juancho
-              </p>
-              <p className="font-light text-lg italic text-center">
-                CEO Fundador
-              </p>
-            </div>
+          <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center">
+            <Link href="https://pe.linkedin.com/in/kevienfox">
+              <a title="Kevin" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
+                <div className="block overflow-hidden h-48 w-48 hover:shadow-xl">
+                  <img
+                    className="object-contain w-full h-full"
+                    src="/img/kevin.jpg"
+                    alt="kevin"
+                  />
+                </div>
+                <p className="font-bold text-lg text-center mt-5">
+                  Kevin
+                </p>
+                <p className="font-light text-lg italic text-center">
+                  General Manager
+                </p>
+              </a>
+            </Link>
+            <Link href="https://www.linkedin.com/in/paulotijero">
+              <a title="Juan" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
+                <div className="block overflow-hidden h-48 w-48 hover:shadow-xl">
+                  <img
+                    className="object-cover w-full h-full"
+                    src="/img/juan.jpg"
+                    alt="Juan"
+                  />
+                </div>
+                <p className="font-bold text-lg text-center mt-5">
+                  Juancho
+                </p>
+                <p className="font-light text-lg italic text-center">
+                  Founder & Technical leader
+                </p>
+              </a>
+            </Link>
           </div>
         </section>
 
