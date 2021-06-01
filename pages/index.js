@@ -524,7 +524,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center">
             <Link href="https://pe.linkedin.com/in/kevienfox">
               <a title="Kevin" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
-                <div className="block overflow-hidden h-48 w-48 hover:shadow-xl">
+                <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
                   <img
                     className="object-contain w-full h-full"
                     src="/img/kevin.jpg"
@@ -541,7 +541,7 @@ export default function Home() {
             </Link>
             <Link href="https://www.linkedin.com/in/paulotijero">
               <a title="Juan" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
-                <div className="block overflow-hidden h-48 w-48 hover:shadow-xl">
+                <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
                   <img
                     className="object-cover w-full h-full"
                     src="/img/juan.jpg"
