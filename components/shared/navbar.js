@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="container mx-auto flex justify-between items-center">
+    <nav className="container mx-auto flex justify-between items-center w-full md:w-5/6">
       <ul className="mr-3 text-2xl md:text-3xl">
         <li>
           <Link href="/">
