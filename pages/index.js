@@ -38,9 +38,12 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="hidden md:block w-1/2" style={{ height: "34rem" }}>
+            <div className="hidden relative md:block w-1/2" style={{ height: "34rem" }}>
               <svg className="w-full h-full">
-                <use xlinkHref="#tech-man" />
+                <use xlinkHref="#bg-fly" />
+              </svg>
+              <svg className="w-96 h-96 absolute top-32 left-10 right-0 m-auto custom-animate">
+                <use xlinkHref="#human" />
               </svg>
             </div>
           </div>
