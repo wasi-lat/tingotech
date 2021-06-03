@@ -42,9 +42,11 @@ export default function Home() {
               <svg className="w-full h-full">
                 <use xlinkHref="#bg-fly" />
               </svg>
-              <svg className="w-96 h-96 absolute top-32 left-10 right-0 m-auto custom-animate">
-                <use xlinkHref="#human" />
-              </svg>
+              <div className="absolute w-1/2 left-10 right-0 m-auto custom-animate" style={{top: '40%'}}>
+                <svg className="w-full h-full">
+                  <use xlinkHref="#human" />
+                </svg>
+              </div>
             </div>
           </div>
         </section>
