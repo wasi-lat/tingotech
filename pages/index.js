@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "@components/layout";
 import BrandSlide from "@components/homepage/brand-slide";
 import TestimonialsSlides from "@components/homepage/testimonials-slides";
+import SeriveSlide from '@components/homepage/service-slide';
 
 export default function Home() {
   return (
@@ -60,25 +61,33 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p> */}
           </div>
-          <div className="flex flex-col md:flex-row items-center md:items-stretch">
-            <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
-              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
-                <svg className="h-6 w-6">
-                  <use xlinkHref="#laptop" />
-                </svg>
+          <div className="flex flex-col items-center mx-auto w-3/5">
+            <div className="flex  w-full mx-5 bg-white my-5 pl-8 rounded-md shadow-md">
+              <div className="w-1/2 py-6 pr-2">
+                <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                  <svg className="h-6 w-6">
+                    <use xlinkHref="#laptop" />
+                  </svg>
+                </div>
+                <h3 className="font-bold pb-3">
+                  Soporte Técnico de Laptops y PCs
+                </h3>
+                <p className="text-sm">
+                  Nos encargamos de dar solución a cualquier problema relacionado
+                  con tu laptop o PC, realizamos mantenimiento físico y lógico,
+                  ello te ayudará prevenir futuros fallos, también contamos con
+                  repuestos (HDDs, SSDs, Memorias RAM), reparación de bisagras,
+                  reparación de placas, importación de placas nuevas.
+                </p>
               </div>
-              <h3 className="font-bold pb-3">
-                Soporte Técnico de Laptops y PCs
-              </h3>
-              <p className="text-sm">
-                Nos encargamos de dar solución a cualquier problema relacionado
-                con tu laptop o PC, realizamos mantenimiento físico y lógico,
-                ello te ayudará prevenir futuros fallos, también contamos con
-                repuestos (HDDs, SSDs, Memorias RAM), reparación de bisagras,
-                reparación de placas, importación de placas nuevas.
-              </p>
+              <div className="w-1/2">
+                <SeriveSlide />
+                {/* <div className="h-full w-full overflow-hidden bg-blue-50 rounded-r-md ">
+                  <img className="object-cover w-full h-full" src="" alt={`embed`} title={`embed`} />
+                </div> */}
+              </div>
             </div>
-            <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
+            <div className="w-full mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
                   <use xlinkHref="#security" />
@@ -91,7 +100,7 @@ export default function Home() {
                 rendimiento.
               </p>
             </div>
-            <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
+            <div className="w-full mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
                   <use xlinkHref="#lightning" />
