@@ -178,7 +178,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#laptop" />
+                  <use xlinkHref="#lightning" />
                 </svg>
               </div>
               <h3 className="font-bold">Mi computadora no enciende</h3>
@@ -200,7 +200,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#security" />
+                  <use xlinkHref="#laptop" />
                 </svg>
               </div>
               <h3 className="font-bold">Pantallazos azules</h3>
@@ -220,8 +220,8 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
-                <svg className="h-6 w-6">
-                  <use xlinkHref="#lightning" />
+                <svg className="h-5 w-5">
+                  <use xlinkHref="#snail" />
                 </svg>
               </div>
               <h3 className="font-bold">Windows va muy lento</h3>
@@ -245,7 +245,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#laptop" />
+                  <use xlinkHref="#lost" />
                 </svg>
               </div>
               <h3 className="font-bold">He perdido o eliminado archivos</h3>
@@ -288,7 +288,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#lightning" />
+                  <use xlinkHref="#tool" />
                 </svg>
               </div>
               <h3 className="font-bold">Reparación de placas</h3>
