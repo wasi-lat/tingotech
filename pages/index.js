@@ -63,10 +63,10 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p> */}
           </div>
-          <div className="flex flex-col items-center mx-auto md:w-3/5">
+          <div className="flex flex-col items-center mx-auto md:w-3/5 lg:w-5/6">
             
-            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 pl-0 md:pl-8 rounded-md shadow-md">
-              <div className="md:w-1/2 w-full py-6 pr-2 px-5">
+            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 rounded-md shadow-md">
+              <div className="md:w-1/2 w-full py-6 pr-2 px-8">
                 <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                   <svg className="h-6 w-6">
                     <use xlinkHref="#laptop" />
@@ -88,8 +88,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 pl-0 md:pl-8 rounded-md shadow-md">
-              <div className="md:w-1/2 w-full py-6 pr-2 px-5">
+            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 rounded-md shadow-md">
+              <div className="md:w-1/2 w-full py-6 pr-2 px-8">
                 <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                   <svg className="h-6 w-6">
                     <use xlinkHref="#security" />
@@ -109,8 +109,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 pl-0 md:pl-8 rounded-md shadow-md">
-              <div className="md:w-1/2 w-full py-6 pr-2 px-5">
+            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 rounded-md shadow-md">
+              <div className="md:w-1/2 w-full py-6 pr-2 px-8">
                 <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                   <svg className="h-6 w-6">
                     <use xlinkHref="#lightning" />
