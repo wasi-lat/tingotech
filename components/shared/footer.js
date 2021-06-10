@@ -51,9 +51,10 @@ export default function Footer() {
                   className="flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Facebook"
                 >
-                <Facebook size={16} className="mr-1"/>
-                Facebook
+                  <Facebook size={16} className="mr-1"/>
+                  Facebook
                 </a>
               </Link>
             </li>
@@ -63,9 +64,22 @@ export default function Footer() {
                   className="flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Instagram"
                 >
-                <Instagram size={16} className="mr-1"/>
-                Instagram
+                  <Instagram size={16} className="mr-1"/>
+                  Instagram
+                </a>
+              </Link>
+            </li>
+            <li className="text-sm py-1 flex items-center">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Whatsapp"
+                >
+                  <i className="mr-2 fab fa-whatsapp"></i>
+                  Whatsapp
                 </a>
               </Link>
             </li>

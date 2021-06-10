@@ -21,4 +21,9 @@
       @apply border-second;
     }
   }
+
+  &-invert {
+    filter: invert(1);
+    @apply pb-5
+  }
 }

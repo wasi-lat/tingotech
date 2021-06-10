@@ -3,6 +3,9 @@ import Link from "next/link";
 import Layout from "@components/layout";
 import BrandSlide from "@components/homepage/brand-slide";
 import TestimonialsSlides from "@components/homepage/testimonials-slides";
+import ServiceSlideRepowering from '@components/homepage/service-slide-repowering';
+import ServiceSlideSupport from '@components/homepage/service-slide-support';
+import ServiceSlideVirus from '@components/homepage/service-slide-virus';
 
 export default function Home() {
   return (
@@ -26,7 +29,7 @@ export default function Home() {
                 nuestra prioridad es el logro de tus objetivos de cualquier tipo 
                 (profesional, entretenimiento, gamer, académico, etc).
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te queria consultar...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -60,49 +63,72 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p> */}
           </div>
-          <div className="flex flex-col md:flex-row items-center md:items-stretch">
-            <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
-              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
-                <svg className="h-6 w-6">
-                  <use xlinkHref="#laptop" />
-                </svg>
+          <div className="flex flex-col items-center mx-auto md:w-3/5 lg:w-5/6">
+            
+            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 rounded-md shadow-md">
+              <div className="md:w-1/2 w-full py-6 pr-2 px-8">
+                <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                  <svg className="h-6 w-6">
+                    <use xlinkHref="#laptop" />
+                  </svg>
+                </div>
+                <h3 className="font-bold pb-3">
+                  Soporte Técnico de Laptops y PCs
+                </h3>
+                <p className="text-sm">
+                  Nos encargamos de dar solución a cualquier problema relacionado
+                  con tu laptop o PC, realizamos mantenimiento físico y lógico,
+                  ello te ayudará prevenir futuros fallos, también contamos con
+                  repuestos (HDDs, SSDs, Memorias RAM), reparación de bisagras,
+                  reparación de placas, importación de placas nuevas.
+                </p>
               </div>
-              <h3 className="font-bold pb-3">
-                Soporte Técnico de Laptops y PCs
-              </h3>
-              <p className="text-sm">
-                Nos encargamos de dar solución a cualquier problema relacionado
-                con tu laptop o PC, realizamos mantenimiento físico y lógico,
-                ello te ayudará prevenir futuros fallos, también contamos con
-                repuestos (HDDs, SSDs, Memorias RAM), reparación de bisagras,
-                reparación de placas, importación de placas nuevas.
-              </p>
-            </div>
-            <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
-              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
-                <svg className="h-6 w-6">
-                  <use xlinkHref="#security" />
-                </svg>
+              <div className="md:w-1/2 w-full">
+                <ServiceSlideSupport />
               </div>
-              <h3 className="font-bold pb-3">Repotenciamiento de Equipos</h3>
-              <p className="text-sm">
-                Realizamos un diagnóstico minucioso de tu computadora y
-                brindamos las recomendaciones apropiadas para que tu equipo gane
-                rendimiento.
-              </p>
             </div>
-            <div className="w-full md:w-1/3 mx-5 bg-white my-5 py-6 px-8 rounded-md shadow-md">
-              <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
-                <svg className="h-6 w-6">
-                  <use xlinkHref="#lightning" />
-                </svg>
+
+            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 rounded-md shadow-md">
+              <div className="md:w-1/2 w-full py-6 pr-2 px-8">
+                <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                  <svg className="h-6 w-6">
+                    <use xlinkHref="#security" />
+                  </svg>
+                </div>
+                <h3 className="font-bold pb-3">
+                  Repotenciamiento de Equipos
+                </h3>
+                <p className="text-sm">
+                  Realizamos un diagnóstico minucioso de tu computadora y
+                  brindamos las recomendaciones apropiadas para que tu equipo gane
+                  rendimiento.
+                </p>
               </div>
-              <h3 className="font-bold pb-3">Sofware Antivirus y Windows</h3>
-              <p className="text-sm">
-                Contamos con licencias genuinas ESET NOD32 y Windows, ofrecemos
-                garantía por su compra.
-              </p>
+              <div className="md:w-1/2 w-full">
+                <ServiceSlideRepowering />
+              </div>
             </div>
+
+            <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 rounded-md shadow-md">
+              <div className="md:w-1/2 w-full py-6 pr-2 px-8">
+                <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
+                  <svg className="h-6 w-6">
+                    <use xlinkHref="#lightning" />
+                  </svg>
+                </div>
+                <h3 className="font-bold pb-3">
+                  Sofware Antivirus y Windows
+                </h3>
+                <p className="text-sm">
+                  Contamos con licencias genuinas ESET NOD32 y Windows, ofrecemos
+                  garantía por su compra.
+                </p>
+              </div>
+              <div className="md:w-1/2 w-full">
+                <ServiceSlideVirus />
+              </div>
+            </div>
+
           </div>
         </section>
 
@@ -152,7 +178,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#laptop" />
+                  <use xlinkHref="#lightning" />
                 </svg>
               </div>
               <h3 className="font-bold">Mi computadora no enciende</h3>
@@ -174,7 +200,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#security" />
+                  <use xlinkHref="#laptop" />
                 </svg>
               </div>
               <h3 className="font-bold">Pantallazos azules</h3>
@@ -194,8 +220,8 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
-                <svg className="h-6 w-6">
-                  <use xlinkHref="#lightning" />
+                <svg className="h-5 w-5">
+                  <use xlinkHref="#snail" />
                 </svg>
               </div>
               <h3 className="font-bold">Windows va muy lento</h3>
@@ -219,7 +245,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#laptop" />
+                  <use xlinkHref="#lost" />
                 </svg>
               </div>
               <h3 className="font-bold">He perdido o eliminado archivos</h3>
@@ -262,7 +288,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mx-5 py-6 px-2 md:px-8">
               <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
                 <svg className="h-6 w-6">
-                  <use xlinkHref="#lightning" />
+                  <use xlinkHref="#tool" />
                 </svg>
               </div>
               <h3 className="font-bold">Reparación de placas</h3>

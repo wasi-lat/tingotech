@@ -4,12 +4,12 @@ export default function Navbar() {
   return (
     <nav className="container mx-auto flex justify-between items-center w-full md:w-5/6">
       <ul className="mr-3 text-2xl md:text-3xl">
-        <li>
+        <li className="h-12 md:h-20">
           <Link href="/">
-            <a title="Tingo Texh" className="">
+            <a title="Tingo Texh">
               <img
-                className="object-contain w-full h-full"
-                src="/img/logo.png"
+                className="object-contain h-full"
+                src="/img/tingotech.png"
                 alt="Tingo Tech"
               />
             </a>
@@ -39,7 +39,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="text-center w-24 bg-primary py-1 rounded md:m-0  hover:opacity-90">
-          <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te queria consultar...">
+          <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
             <a
               target="_blank"
               rel="noopener noreferrer"
