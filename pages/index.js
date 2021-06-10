@@ -29,7 +29,7 @@ export default function Home() {
                 nuestra prioridad es el logro de tus objetivos de cualquier tipo 
                 (profesional, entretenimiento, gamer, académico, etc).
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te queria consultar...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
