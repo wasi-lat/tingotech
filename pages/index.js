@@ -575,7 +575,7 @@ export default function Home() {
                 </p>
               </a>
             </Link>
-            <Link href="https://pe.linkedin.com/in/kevienfox">
+            <Link href="https://www.linkedin.com/in/daison-david-juancho-adriano-441490bb/">
               <a title="Juan" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
                 <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
                   <img
