@@ -12,13 +12,18 @@ export default function Home() {
     <Layout>
       <main>
         <section
-          className="py-28"
-          style={{
-            background:
-              "linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)",
-          }}
+          className="relative bg-no-repeat bg-fixed bg-cover py-24"
+          style={{ backgroundImage: "url(/img/principal.jpg)" }}
         >
-          <div className="container mx-auto flex items-center w-full md:w-5/6">
+          <span 
+            className="block absolute top-0 left-0 h-full w-full opacity-95"
+            style={{
+              background:
+                "linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)",
+            }}
+          >
+          </span>
+          <div className="relative container mx-auto flex items-center w-full md:w-5/6">
             <div className="w-full md:w-1/2 mx-2">
               <h2 className="font-bold text-4xl md:text-6xl text-white leading-tight">
                 Generamos más{" "}
