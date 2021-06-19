@@ -33,7 +33,13 @@ export default function ServiceSlideVirus(){
       showDots={false}
     >
       <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md">
-        <img className="object-cover w-full h-full" src="/img/service/service-5.jpeg" alt={`embed3`} title={`embed3`} />
+        <img className="object-cover w-full h-full" src="/img/service/virus/virus_1.png" alt={`image 1`} title={`image 1`} />
+      </div>
+      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md">
+        <img className="object-cover w-full h-full" src="/img/service/virus/virus_2.jpg" alt={`image 2`} title={`image 2`} />
+      </div>
+      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md">
+        <img className="object-cover w-full h-full" src="/img/service/virus/virus_3.jpg" alt={`image 3`} title={`image 3`} />
       </div>
     </Carousel>
   )

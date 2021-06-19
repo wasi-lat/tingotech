@@ -33,10 +33,13 @@ export default function ServiceSlideRepowering(){
       showDots={false}
     >
       <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/service-3.jpeg" alt={`embed3`} title={`embed3`} />
+        <img className="object-cover w-full h-full" src="/img/service/repowering/repowering_1.jpg" alt={`repowering 1`} title={`repowering 1`} />
       </div>
       <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/service-4.jpeg" alt={`embed3`} title={`embed3`} />
+        <img className="object-cover w-full h-full" src="/img/service/repowering/repowering_2.jpg" alt={`repowering 2`} title={`repowering 2`} />
+      </div>
+      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
+        <img className="object-cover w-full h-full" src="/img/service/repowering/repowering_3.jpg" alt={`repowering 3`} title={`repowering 3`} />
       </div>
     </Carousel>
   )
