@@ -16,7 +16,7 @@ export default function Home() {
           style={{ backgroundImage: "url(/img/principal.jpg)" }}
         >
           <span 
-            className="block absolute top-0 left-0 h-full w-full opacity-95"
+            className="block absolute top-0 left-0 h-full w-full opacity-90"
             style={{
               background:
                 "linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)",

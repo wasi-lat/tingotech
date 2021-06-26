@@ -32,14 +32,14 @@ export default function ServiceSlideRepowering(){
       dotListClass="dot dot-invert"
       showDots={false}
     >
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/repowering/repowering_1.jpg" alt={`repowering 1`} title={`repowering 1`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/repowering/repowering_1.jpg" alt={`repowering 1`} title={`repowering 1`} />
       </div>
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/repowering/repowering_2.jpg" alt={`repowering 2`} title={`repowering 2`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/repowering/repowering_2.jpg" alt={`repowering 2`} title={`repowering 2`} />
       </div>
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/repowering/repowering_3.jpg" alt={`repowering 3`} title={`repowering 3`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/repowering/repowering_3.jpg" alt={`repowering 3`} title={`repowering 3`} />
       </div>
     </Carousel>
   )

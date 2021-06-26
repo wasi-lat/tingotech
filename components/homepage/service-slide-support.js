@@ -32,23 +32,23 @@ export default function ServiceSlideSupport(){
       dotListClass="dot dot-invert"
       showDots={false}
     >
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/support/support_1.jpg" alt={`suppport 1`} title={`suppport 1`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/support/support_1.jpg" alt={`suppport 1`} title={`suppport 1`} />
       </div>
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/support/support_2.jpg" alt={`support 2`} title={`support 2`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/support/support_2.jpg" alt={`support 2`} title={`support 2`} />
       </div>
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/support/support_3.jpg" alt={`support 3`} title={`support 3`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/support/support_3.jpg" alt={`support 3`} title={`support 3`} />
       </div>
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/support/support_4.jpg" alt={`support 4`} title={`support 4`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/support/support_4.jpg" alt={`support 4`} title={`support 4`} />
       </div>
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/support/support_5.jpg" alt={`support 5`} title={`support 5`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/support/support_5.jpg" alt={`support 5`} title={`support 5`} />
       </div>
-      <div className="h-72 w-full overflow-hidden bg-blue-50 md:rounded-r-md rounded-b-md ">
-        <img className="object-cover w-full h-full" src="/img/service/support/support_6.jpg" alt={`support 6`} title={`support 6`} />
+      <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md ">
+        <img className="object-contain w-full h-full" src="/img/service/support/support_6.jpg" alt={`support 6`} title={`support 6`} />
       </div>
     </Carousel>
   )
