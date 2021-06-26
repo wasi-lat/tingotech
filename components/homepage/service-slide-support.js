@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Carousel from 'react-multi-carousel';
 
 const responsive = {
