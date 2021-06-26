@@ -12,13 +12,18 @@ export default function Home() {
     <Layout>
       <main>
         <section
-          className="py-28"
-          style={{
-            background:
-              "linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)",
-          }}
+          className="relative bg-no-repeat bg-fixed bg-cover py-24"
+          style={{ backgroundImage: "url(/img/principal.jpg)" }}
         >
-          <div className="container mx-auto flex items-center w-full md:w-5/6">
+          <span 
+            className="block absolute top-0 left-0 h-full w-full opacity-90"
+            style={{
+              background:
+                "linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)",
+            }}
+          >
+          </span>
+          <div className="relative container mx-auto flex items-center w-full md:w-5/6">
             <div className="w-full md:w-1/2 mx-2">
               <h2 className="font-bold text-4xl md:text-6xl text-white leading-tight">
                 Generamos más{" "}
@@ -570,7 +575,7 @@ export default function Home() {
                 </p>
               </a>
             </Link>
-            <Link href="https://pe.linkedin.com/in/kevienfox">
+            <Link href="https://www.linkedin.com/in/daison-david-juancho-adriano-441490bb/">
               <a title="Juan" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
                 <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
                   <img
