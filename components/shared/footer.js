@@ -25,7 +25,7 @@ export default function Footer() {
             </li>
             <li className="text-sm py-1 flex items-center">
               <Mail size={16} className="mr-1"/>
-              info@tingotech.com
+              hola@tingotech.com
             </li>
             <li className="text-sm py-1">
               <Link href="tel:+51-986-077-683">
