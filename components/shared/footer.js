@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <footer className="text-white" style={{backgroundColor: '#113423'}}>
       <div className="container mx-auto flex flex-col md:flex-row pt-10 pb-10">
-        <div className="flex flex-col items-center w-full md:w-4/12 px-5 md:mx-28">
-          <img className="pb-4" src="/img/logo.png" alt="Logo TingoTech" />
-          <p className="text-xs">
+        <div className="flex flex-col items-center w-full md:w-3/12 px-5 md:mx-28">
+          <img className="pb-4" src="/img/tingotech.png" alt="Logo TingoTech" />
+          <p className="text-xs text-justify">
             Tingo Tech es una empresa joven emprendedora que brinda 
             soluciones innovadoras en el sector informático, 
             contribuyendo al desarrollo de la comunidad tingaleza 
@@ -21,7 +21,7 @@ export default function Footer() {
           <ul>
             <li className="text-sm py-1 flex items-center">
               <MapPin size={16} className="mr-1"/>
-              Av. Dirección #221
+              Comite 2 de Brisas
             </li>
             <li className="text-sm py-1 flex items-center">
               <Mail size={16} className="mr-1"/>
