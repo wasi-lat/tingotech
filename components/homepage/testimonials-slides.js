@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Carousel from "react-multi-carousel";
 import { User } from 'react-feather'
 
@@ -32,10 +33,12 @@ export default function TestimonialsSlides() {
       dotListClass="dot"
     >
       <div className="relative container mx-auto pt-16 pb-10 flex flex-col items-center">
-        <img
+        <Image
           className="py-5"
           src="/img/double-quotes.png"
           alt="Double Quotes"
+          width={70}
+          height={50}
         />
         <p className="my-8 pb-5 font-light italic text-center text-white w-full md:w-5/12">
           Buen servicio, realiza delivery tanto la recepción como el envío, la
@@ -54,10 +57,12 @@ export default function TestimonialsSlides() {
         </p>
       </div>
       <div className="relative container mx-auto pt-16 pb-10 flex flex-col items-center">
-        <img
+        <Image
           className="py-5"
           src="/img/double-quotes.png"
           alt="Double Quotes"
+          width={70}
+          height={50}
         />
         <p className="my-8 pb-5 font-light italic text-center text-white w-full md:w-5/12">
           Excelente servicio 😊
@@ -75,10 +80,12 @@ export default function TestimonialsSlides() {
         </p>
       </div>
       <div className="relative container mx-auto pt-16 pb-10 flex flex-col items-center">
-        <img
+        <Image
           className="py-5"
           src="/img/double-quotes.png"
           alt="Double Quotes"
+          width={70}
+          height={50}
         />
         <p className="my-8 pb-5 font-light italic text-center text-white w-full md:w-5/12">
           5 estrellas sin comentario

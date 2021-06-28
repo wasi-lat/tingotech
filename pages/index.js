@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from "next/link";
 
 import Layout from "@components/layout";
@@ -339,25 +340,30 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <div className="flex justify-around w-full md:w-4/6">
+              
               <div className="block w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-full bg-white">
-                <img
-                  className="object-contain w-full h-full"
+                <Image
                   src="/img/entities/diconta.jpg"
                   alt="DICONTA"
+                  width={200}
+                  height={200}
                 />
               </div>
               <div className="flex justify-center items-center w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-full bg-white">
                 <img
-                  className="object-contain w-20 h-20 md:w-36 md:h-36"
                   src="/img/entities/unas.png"
                   alt="UNAS"
+                  width={130}
+                  layout="fill"
+                  objectFit="contain"
                 />
               </div>
               <div className="block w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-full bg-white">
                 <img
-                  className="object-contain w-full h-full"
                   src="/img/entities/pwt.png"
                   alt="PWT"
+                  layout="fill"
+                  objectFit="contain"
                 />
               </div>
             </div>
@@ -403,70 +409,79 @@ export default function Home() {
           {/* Desktop */}
           <div className="hidden md:flex justify-center">
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-1.jpeg"
                 alt="Reparación #1"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-2.jpeg"
                 alt="Reparación #2"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-3.jpeg"
                 alt="Reparación #3"
+                width={320}
+                height={400}
               />
             </div>
           </div>
           <div className="hidden md:flex justify-center">
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-4.jpeg"
                 alt="Reparación #4"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-5.jpeg"
                 alt="Reparación #5"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-6.jpeg"
                 alt="Reparación #6"
+                width={320}
+                height={400}
               />
             </div>
           </div>
           <div className="hidden md:flex justify-center">
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-7.jpeg"
                 alt="Reparación #7"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-8.jpeg"
                 alt="Reparación #8"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/5 p-3 block overflow-hidden h-64">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-9.jpeg"
                 alt="Reparación #9"
+                width={320}
+                height={400}
               />
             </div>
           </div>
@@ -474,65 +489,73 @@ export default function Home() {
           {/* Mobile */}
           <div className="flex md:hidden justify-center">
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-1.jpeg"
                 alt="Reparación #1"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-2.jpeg"
                 alt="Reparación #2"
+                width={320}
+                height={400}
               />
             </div>
           </div>
           <div className="flex md:hidden justify-center">
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-3.jpeg"
                 alt="Reparación #3"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-4.jpeg"
                 alt="Reparación #4"
+                width={320}
+                height={400}
               />
             </div>
           </div>
           <div className="flex md:hidden justify-center">
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-5.jpeg"
                 alt="Reparación #5"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-6.jpeg"
                 alt="Reparación #6"
+                width={320}
+                height={400}
               />
             </div>
           </div>
           <div className="flex md:hidden justify-center">
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-7.jpeg"
                 alt="Reparación #7"
+                width={320}
+                height={400}
               />
             </div>
             <div className="w-1/2 p-3 block overflow-hidden h-44">
-              <img
-                className="object-cover w-full h-full"
+              <Image
                 src="/img/our-jobs/job-8.jpeg"
                 alt="Reparación #8"
+                width={320}
+                height={400}
               />
             </div>
           </div>
@@ -561,10 +584,12 @@ export default function Home() {
             <Link href="https://pe.linkedin.com/in/kevienfox">
               <a title="Kevin" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
                 <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
-                  <img
-                    className="object-contain w-full h-full"
+                  <Image
+                    // className="object-contain w-full h-full"
                     src="/img/kevin.jpg"
                     alt="Kevin Espinoza Bravo"
+                    width={200}
+                    height={200}
                   />
                 </div>
                 <p className="font-bold text-lg text-center mt-5">
@@ -578,10 +603,11 @@ export default function Home() {
             <Link href="https://www.linkedin.com/in/daison-david-juancho-adriano-441490bb/">
               <a title="Juan" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
                 <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
-                  <img
-                    className="object-cover w-full h-full"
+                  <Image
                     src="/img/juan.jpg"
                     alt="David Juancho"
+                    width={210}
+                    height={350}
                   />
                 </div>
                 <p className="font-bold text-lg text-center mt-5">

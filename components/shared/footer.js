@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { MapPin, Mail, Phone, Facebook, Instagram } from 'react-feather'
 
@@ -7,8 +8,13 @@ export default function Footer() {
     <footer className="text-white" style={{backgroundColor: '#113423'}}>
       <div className="container mx-auto flex flex-col md:flex-row pt-10 pb-10">
         <div className="flex flex-col items-center w-full md:w-3/12 px-5 md:mx-28">
-          <img className="pb-4" src="/img/tingotech.png" alt="Logo TingoTech" />
-          <p className="text-xs text-justify">
+          <Image 
+            src="/img/tingotech.png" 
+            alt="Logo TingoTech" 
+            width={280}
+            height={80}
+          />
+          <p className="pt-5 text-xs text-justify">
             Tingo Tech es una empresa joven emprendedora que brinda 
             soluciones innovadoras en el sector informático, 
             contribuyendo al desarrollo de la comunidad tingaleza 
