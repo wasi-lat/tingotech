@@ -349,14 +349,14 @@ export default function Home() {
               <div className="flex justify-center items-center w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-full bg-white">
                 <img
                   className="object-contain w-20 h-20 md:w-36 md:h-36"
-                  src="/img/entities/unas.png"
+                  src="/img/entities/unas.jpg"
                   alt="UNAS"
                 />
               </div>
               <div className="block w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-full bg-white">
                 <img
                   className="object-contain w-full h-full"
-                  src="/img/entities/pwt.png"
+                  src="/img/entities/pwt.jpg"
                   alt="PWT"
                 />
               </div>
