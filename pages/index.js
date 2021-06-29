@@ -316,7 +316,7 @@ export default function Home() {
 
         <section
           className="relative bg-no-repeat bg-fixed bg-cover py-20"
-          style={{ backgroundImage: "url(/img/bg-testimonials.png)" }}
+          style={{ backgroundImage: "url(/img/bg-testimonials.jpg)" }}
         >
           <span
             className="block absolute top-0 left-0 h-full w-full opacity-75"
@@ -405,14 +405,14 @@ export default function Home() {
             <div className="w-1/5 p-3 block overflow-hidden h-64">
               <img
                 className="object-cover w-full h-full"
-                src="/img/our-jobs/job-1.jpeg"
+                src="/img/our-jobs/job-1.jpg"
                 alt="Reparación #1"
               />
             </div>
             <div className="w-1/5 p-3 block overflow-hidden h-64">
               <img
                 className="object-cover w-full h-full"
-                src="/img/our-jobs/job-2.jpeg"
+                src="/img/our-jobs/job-2.jpg"
                 alt="Reparación #2"
               />
             </div>
