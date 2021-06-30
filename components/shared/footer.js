@@ -96,8 +96,8 @@ export default function Footer() {
 
       </div>
 
-      <div className="py-1 text-center text-xs bg-black text-white font-light">
-        <p>Made with Coffe by <b>Goplatin</b></p>
+      <div className="py-1 text-center text-xs bg-black text-white font-light opacity-70">
+        <p>Made with ☕ by <b>Goplatin</b> © 2021 TINGOTECH. All rights reserved</p>
       </div>
 
     </footer>
