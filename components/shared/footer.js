@@ -24,8 +24,16 @@ export default function Footer() {
               Comite 2 de Brisas
             </li>
             <li className="text-sm py-1 flex items-center">
-              <Mail size={16} className="mr-1"/>
-              hola@tingotech.com
+              <Link href="mailto:hola@tingotech.com">
+                <a
+                  className="flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Mail size={16} className="mr-1"/>
+                  hola@tingotech.com
+                </a>
+              </Link>
             </li>
             <li className="text-sm py-1">
               <Link href="tel:+51-986-077-683">
