@@ -24,8 +24,16 @@ export default function Footer() {
               Comite 2 de Brisas
             </li>
             <li className="text-sm py-1 flex items-center">
-              <Mail size={16} className="mr-1"/>
-              hola@tingotech.com
+              <Link href="mailto:hola@tingotech.com">
+                <a
+                  className="flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Mail size={16} className="mr-1"/>
+                  hola@tingotech.com
+                </a>
+              </Link>
             </li>
             <li className="text-sm py-1">
               <Link href="tel:+51-986-077-683">
@@ -96,8 +104,8 @@ export default function Footer() {
 
       </div>
 
-      <div className="py-1 text-center text-xs bg-black text-white font-light">
-        <p>Made with Coffe by <b>Goplatin</b></p>
+      <div className="py-1 text-center text-xs bg-black text-white font-light opacity-70">
+        <p>Made with ☕ by <b>Goplatin</b> © 2021 TINGOTECH. All rights reserved</p>
       </div>
 
     </footer>
