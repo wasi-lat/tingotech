@@ -36,7 +36,7 @@ export default function ServiceSlideVirus(){
         <img className="object-contain w-full h-full" src="/img/service/virus/virus_1.jpg" alt={`image 1`} title={`image 1`} />
       </div>
       <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md">
-        <img className="object-contain w-full h-full" src="/img/service/virus/virus_2.jpeg" alt={`image 2`} title={`image 2`} />
+        <img className="object-contain w-full h-full" src="/img/service/virus/virus_2.jpg" alt={`image 2`} title={`image 2`} />
       </div>
       <div className="h-72 w-full overflow-hidden bg-white md:rounded-r-md rounded-b-md">
         <img className="object-contain w-full h-full" src="/img/service/virus/virus_3.jpg" alt={`image 3`} title={`image 3`} />
