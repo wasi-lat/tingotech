@@ -39,7 +39,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="text-center w-24 bg-primary py-1 rounded md:m-0  hover:opacity-90">
-          <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
+          <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
             <a
               target="_blank"
               rel="noopener noreferrer"

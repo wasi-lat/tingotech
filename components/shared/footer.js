@@ -36,14 +36,14 @@ export default function Footer() {
               </Link>
             </li>
             <li className="text-sm py-1">
-              <Link href="tel:+51-986-077-683">
+              <Link href="tel:+51-928-408-503">
                 <a
                   className="flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                 <Phone size={16} className="mr-1"/>
-                  986 077 683
+                  928 408 503
                 </a>
               </Link>
             </li>
@@ -80,7 +80,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className="text-sm py-1 flex items-center">
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
