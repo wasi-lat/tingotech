@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="text-white" style={{backgroundColor: '#113423'}}>
       <div className="container mx-auto flex flex-col md:flex-row pt-10 pb-10">
-        <div className="flex flex-col items-center w-full md:w-3/12 px-5 md:mx-28">
+        <div className="flex flex-col items-center w-full md:w-2/12 px-5 md:mx-28">
           <img className="pb-4" src="/img/tingotech.png" alt="Logo TingoTech" />
           <p className="text-xs text-justify">
             Tingo Tech es una empresa joven emprendedora que brinda 
