@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="text-white" style={{backgroundColor: '#113423'}}>
       <div className="container mx-auto flex flex-col md:flex-row pt-10 pb-10">
-        <div className="flex flex-col items-center w-full md:w-3/12 px-5 md:mx-28">
+        <div className="flex flex-col items-center w-full md:w-2/12 px-5 md:mx-28">
           <img className="pb-4" src="/img/tingotech.png" alt="Logo TingoTech" />
           <p className="text-xs text-justify">
             Tingo Tech es una empresa joven emprendedora que brinda 
@@ -36,14 +36,14 @@ export default function Footer() {
               </Link>
             </li>
             <li className="text-sm py-1">
-              <Link href="tel:+51-986-077-683">
+              <Link href="tel:+51-928-408-503">
                 <a
                   className="flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                 <Phone size={16} className="mr-1"/>
-                  986 077 683
+                  928 408 503
                 </a>
               </Link>
             </li>
@@ -80,7 +80,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className="text-sm py-1 flex items-center">
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

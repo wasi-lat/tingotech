@@ -34,7 +34,7 @@ export default function Home() {
                 nuestra prioridad es el logro de tus objetivos de cualquier tipo 
                 (profesional, entretenimiento, gamer, académico, etc).
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -157,7 +157,7 @@ export default function Home() {
               de técnicos están capacitados para resolver cualquier problema de
               hardware o software en tu PC ó Laptop
             </p>
-            <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech quisiera pedir un servicio a domicilio para la dirección...">
+            <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech quisiera pedir un servicio a domicilio para la dirección...">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -191,7 +191,7 @@ export default function Home() {
                 Estabas usando tu equipo normal y de pronto al siguiente día
                 dejó de encender.
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, mi computadora no enciente 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, mi computadora no enciente 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -212,7 +212,7 @@ export default function Home() {
               <p className="text-sm py-3">
                 Cuando trabajas o cuando juegas, tenemos la solución
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, me salen pantallazos azules 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, me salen pantallazos azules 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -234,7 +234,7 @@ export default function Home() {
                 Enciende en una eternidad tu equipo o los programas abren muy
                 lento
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, mi Windows va muy lento 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, mi Windows va muy lento 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -257,7 +257,7 @@ export default function Home() {
               <p className="text-sm py-3">
                 No te preocupes, recuperamos tus archivos en tiempo récord.
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, he perdido (elimine!) todos mis archivos 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, he perdido (elimine!) todos mis archivos 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -279,7 +279,7 @@ export default function Home() {
                 Realizamos mantenimiento lógico a tu sistema, eliminación virus
                 y prevención a futuras infecciones
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, tengo muchos virus en la máquina 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, tengo muchos virus en la máquina 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -300,7 +300,7 @@ export default function Home() {
               <p className="text-sm py-3">
                 Traemos a la vida tus equipos que no encienden o no dan imagen
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, necesito urgente una reparación de placa 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, necesito urgente una reparación de placa 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -376,7 +376,7 @@ export default function Home() {
               CONTAMOS CON EL REGISTRO NACIONAL DE PROVEEDORES (RNP) PARA
               TRABAJAR CON EL ESTADO PERUANO.
             </h2>
-            <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola TingoTech, le escribimos de la institución {Escriba nombre de su institución aquí} para...">
+            <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola TingoTech, le escribimos de la institución {Escriba nombre de su institución aquí} para...">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
