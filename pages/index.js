@@ -476,14 +476,14 @@ export default function Home() {
             <div className="w-1/2 p-3 block overflow-hidden h-44">
               <img
                 className="object-cover w-full h-full"
-                src="/img/our-jobs/job-1.jpeg"
+                src="/img/our-jobs/job-1.jpg"
                 alt="Reparación #1"
               />
             </div>
             <div className="w-1/2 p-3 block overflow-hidden h-44">
               <img
                 className="object-cover w-full h-full"
-                src="/img/our-jobs/job-2.jpeg"
+                src="/img/our-jobs/job-2.jpg"
                 alt="Reparación #2"
               />
             </div>
