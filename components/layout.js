@@ -28,9 +28,9 @@ export default function Layout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="TingoTech" />
         <meta property="og:description" content="TingoTech soluciones tecnologicas generando productividad." />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="/public/img/logo_2020.png" />
         <meta property="og:image:alt" content="TingoTech soluciones tecnologicas generando productividad." />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://www.tingotech.com/" />
         <meta property="og:site_name" content="TingoTech" />
         <meta property="og:locale" content="es" />
       </Head>
