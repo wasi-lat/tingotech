@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head> {/* <!-- Primary Meta Tags --> */}
-        <title>TingoTech</title>
+        <title>TingoTech - Inicio | Servicio Técnico de Laptops y PC's</title>
         <link rel="icon" href="/assets/img/logo.png" />
         <meta name="description" content="TingoTech soluciones tecnologicas generando productividad." />
         <meta name="language" content="es" />
