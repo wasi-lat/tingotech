@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <meta name="description" content="Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. Instalación de programas en general. Asesoría técnica personalizada. Transparencia y puntualidad nos diferencia." />
         <meta name="language" content="es" />
         <meta name="author" content="TingoTech" />
-        <meta name="subject" content="TingoTech soluciones tecnologicas generando productividad." />
+        <meta name="subject" content="TingoTech Servicio Técnico de Laptops y PC's" />
         <meta name="pagename" content="TingoTech" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
@@ -39,10 +39,10 @@ export default function Layout({ children }) {
         <meta name="twitter:card" value="summary_large_image" content="summary_large_image" />
         <meta name="twitter:site" value="@TingoTech" content="@TingoTech" />
         <meta name="twitter:creator" value="@TingoTech" content="@TingoTech" />
-        <meta name="twitter:url" value="https://TingoTech.pe" content="https://TingoTech.pe" />
+        <meta name="twitter:url" value="https://www.tingotech.com/" content="https://www.tingotech.com/" />
         <meta name="twitter:title" value="TingoTech" content="TingoTech" />
         <meta name="twitter:description" value="TingoTech soluciones tecnologicas generando productividad." />
-        <meta name="twitter:image" value="" content="" />
+        <meta name="twitter:image" value="/public/img/logo_2020.png" content="/public/img/logo_2020.png" />
         <meta name="twitter:summary" content="TingoTech soluciones tecnologicas generando productividad." />
       </Head>
 
