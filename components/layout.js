@@ -39,10 +39,10 @@ export default function Layout({ children }) {
         <meta name="twitter:card" value="summary_large_image" content="summary_large_image" />
         <meta name="twitter:site" value="@TingoTech" content="@TingoTech" />
         <meta name="twitter:creator" value="@TingoTech" content="@TingoTech" />
-        <meta name="twitter:url" value="https://TingoTech.pe" content="https://TingoTech.pe" />
+        <meta name="twitter:url" value="https://www.tingotech.com/" content="https://www.tingotech.com/" />
         <meta name="twitter:title" value="TingoTech" content="TingoTech" />
         <meta name="twitter:description" value="TingoTech soluciones tecnologicas generando productividad." />
-        <meta name="twitter:image" value="" content="" />
+        <meta name="twitter:image" value="/public/img/logo_2020.png" content="/public/img/logo_2020.png" />
         <meta name="twitter:summary" content="TingoTech soluciones tecnologicas generando productividad." />
       </Head>
 
