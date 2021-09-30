@@ -26,8 +26,7 @@ export default function Home() {
           <div className="relative container mx-auto flex items-center w-full md:w-5/6">
             <div className="w-full md:w-1/2 mx-2">
               <h2 className="font-bold text-4xl md:text-6xl text-white leading-tight">
-                Generamos más{" "}
-                <mark className="bg-second text-white">productividad</mark>
+                Servicio Técnico y Reparaciones de Laptops
               </h2>
               <p className="mt-5 mb-8 text-sm font-light text-white">
               Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. 
