@@ -10,10 +10,10 @@ export default function Layout({ children }) {
       <Head> {/* <!-- Primary Meta Tags --> */}
         <title>TingoTech - Inicio | Servicio Técnico de Laptops y PC's</title>
         <link rel="icon" href="/assets/img/logo.png" />
-        <meta name="description" content="TingoTech soluciones tecnologicas generando productividad." />
+        <meta name="description" content="Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. Instalación de programas en general. Asesoría técnica personalizada. Transparencia y puntualidad nos diferencia." />
         <meta name="language" content="es" />
         <meta name="author" content="TingoTech" />
-        <meta name="subject" content="TingoTech soluciones tecnologicas generando productividad." />
+        <meta name="subject" content="TingoTech Servicio Técnico de Laptops y PC's" />
         <meta name="pagename" content="TingoTech" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />

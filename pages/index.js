@@ -30,9 +30,9 @@ export default function Home() {
                 <mark className="bg-second text-white">productividad</mark>
               </h2>
               <p className="mt-5 mb-8 text-sm font-light text-white">
-                Nos enfocamos en que todas tus actividades sean mucho más productivas, 
-                nuestra prioridad es el logro de tus objetivos de cualquier tipo 
-                (profesional, entretenimiento, gamer, académico, etc).
+              Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. 
+              Instalación de programas en general. Asesoría técnica personalizada. 
+              Transparencia y puntualidad nos diferencia.
               </p>
               <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
                 <a
