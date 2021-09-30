@@ -8,8 +8,8 @@ export default function Layout({ children }) {
   return (
     <>
       <Head> {/* <!-- Primary Meta Tags --> */}
-        <title>TingoTech - Inicio | Servicio Técnico de Laptops y PC's</title>
-        <link rel="icon" href="/assets/img/logo.png" />
+        <title>&#x1f4bb; TingoTech - Inicio | Servicio Técnico de Laptops y PC's</title>
+        <link rel="icon" href="/public/img/logo_2020.png" />
         <meta name="description" content="Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. Instalación de programas en general. Asesoría técnica personalizada. Transparencia y puntualidad nos diferencia." />
         <meta name="language" content="es" />
         <meta name="author" content="TingoTech" />
