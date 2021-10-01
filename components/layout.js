@@ -27,9 +27,9 @@ export default function Layout({ children }) {
       <Head> {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="TingoTech" />
-        <meta property="og:description" content="TingoTech soluciones tecnologicas generando productividad." />
+        <meta property="og:description" content="TingoTech Servicio Técnico de Laptops y PC's" />
         <meta property="og:image" content="/public/img/logo_2020.png" />
-        <meta property="og:image:alt" content="TingoTech soluciones tecnologicas generando productividad." />
+        <meta property="og:image:alt" content="TingoTech Servicio Técnico de Laptops y PC's" />
         <meta property="og:url" content="https://www.tingotech.com/" />
         <meta property="og:site_name" content="TingoTech" />
         <meta property="og:locale" content="es" />
@@ -41,9 +41,9 @@ export default function Layout({ children }) {
         <meta name="twitter:creator" value="@TingoTech" content="@TingoTech" />
         <meta name="twitter:url" value="https://www.tingotech.com/" content="https://www.tingotech.com/" />
         <meta name="twitter:title" value="TingoTech" content="TingoTech" />
-        <meta name="twitter:description" value="TingoTech soluciones tecnologicas generando productividad." />
+        <meta name="twitter:description" value="TingoTech Servicio Técnico de Laptops y PC's" />
         <meta name="twitter:image" value="/public/img/logo_2020.png" content="/public/img/logo_2020.png" />
-        <meta name="twitter:summary" content="TingoTech soluciones tecnologicas generando productividad." />
+        <meta name="twitter:summary" content="TingoTech Servicio Técnico de Laptops y PC's" />
       </Head>
 
       <Head> {/* <!-- Prefetch --> */}
