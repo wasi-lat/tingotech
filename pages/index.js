@@ -28,7 +28,7 @@ export default function Home() {
               <h2 className="font-bold text-4xl md:text-6xl text-white leading-tight">
                 Servicio Técnico y Reparaciones de Laptops
               </h2>
-              <p className="mt-5 mb-8 text-sm font-light text-white">
+              <p className="mt-5 mb-8 text-lg font-light text-white">
               Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. 
               Instalación de programas en general. Asesoría técnica personalizada. 
               Transparencia y puntualidad nos diferencia.
