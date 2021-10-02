@@ -9,7 +9,7 @@ export default function Layout({ children }) {
     <>
       <Head> {/* <!-- Primary Meta Tags --> */}
         <title>TingoTech - Inicio | Servicio Técnico de Laptops y PC's</title>
-        <link rel="icon" type="image/png" href="/assets/img/laptop.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/img/laptop.png" sizes="32x32" />
         <meta name="description" content="Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. Instalación de programas en general. Asesoría técnica personalizada. Transparencia y puntualidad nos diferencia." />
         <meta name="language" content="es" />
         <meta name="author" content="TingoTech" />
@@ -28,7 +28,7 @@ export default function Layout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="TingoTech" />
         <meta property="og:description" content="TingoTech Servicio Técnico de Laptops y PC's" />
-        <meta property="og:image" content="/public/img/logo_2020.png" />
+        <meta property="og:image" content="/img/logo_2020.png" />
         <meta property="og:image:alt" content="TingoTech Servicio Técnico de Laptops y PC's" />
         <meta property="og:url" content="https://www.tingotech.com/" />
         <meta property="og:site_name" content="TingoTech" />
@@ -42,7 +42,7 @@ export default function Layout({ children }) {
         <meta name="twitter:url" value="https://www.tingotech.com/" content="https://www.tingotech.com/" />
         <meta name="twitter:title" value="TingoTech" content="TingoTech" />
         <meta name="twitter:description" value="Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. Instalación de programas en general. Asesoría técnica personalizada. Transparencia y puntualidad nos diferencia." />
-        <meta name="twitter:image" value="/public/img/logo_2020.png" content="/public/img/logo_2020.png" />
+        <meta name="twitter:image" value="/img/logo_2020.png" content="/img/logo_2020.png" />
         <meta name="twitter:summary" content="Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. Instalación de programas en general. Asesoría técnica personalizada. Transparencia y puntualidad nos diferencia." />
       </Head>
 
