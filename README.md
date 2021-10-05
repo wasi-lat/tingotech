@@ -12,6 +12,10 @@ And finally, you should run it, and by default it starts on the port `3000`
 
 don't forget init your environment variables, you can set using [env.example](https://github.com/pragmatic-co/qubank-web/blob/master/.env.example)
 
+## Design
+
+You can see the prototype here in [Figma](https://www.figma.com/file/2FD3W7QtkCUK2Dkpor1Jdi/TingoTech?node-id=0%3A1)
+
 ## Docs
 
 This is the list to libraries and dependencies using in this project:
