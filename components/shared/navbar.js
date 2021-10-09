@@ -41,10 +41,11 @@ export default function Navbar() {
         </li>
         <li className="text-center w-60 md:m-0">
           <ul className="flex content-evenly items-center overflow-auto text-sm">
-            <li className="text-center w-1/4 md:m-0">
+            <li className="flex justify-center w-1/4 md:m-0">
               <Link href="https://www.facebook.com/tingotech">
                 <a
-                  className="flex items-center justify-center"
+                  type="button"
+                  className="flex items-center justify-center bg-green-900 w-11 h-11 rounded-full shadow-md hover:bg-green-600"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Facebook"
@@ -53,10 +54,11 @@ export default function Navbar() {
                 </a>
               </Link>
             </li>
-            <li className="text-center w-1/4 md:m-0">
+            <li className="flex justify-center w-1/4 md:m-0">
               <Link scroll={true} href="https://www.instagram.com/tingotech">
                 <a
-                  className="flex content-center justify-center"
+                  type="button"
+                  className="flex items-center justify-center bg-green-900 w-11 h-11 rounded-full shadow-md hover:bg-green-600"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Instagram"
@@ -65,24 +67,26 @@ export default function Navbar() {
                 </a>
               </Link>
             </li>
-            <li className="text-center w-1/4 md:m-0">
+            <li className="flex justify-center w-1/4 md:m-0">
               <Link scroll={true} href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
                 <a
-                  className="flex content-center justify-center"
+                  type="button"
+                  className="flex items-center justify-center bg-green-900 w-11 h-11 rounded-full shadow-md hover:bg-green-600"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Whatsapp"
                 >
-                  <svg className="h-5 w-5">
+                  <svg className="h-5 w-5 mb-" style={{ marginBottom: "0.15rem" }}>
                     <use xlinkHref="#whatsapp" />
                   </svg>
                 </a>
               </Link>
             </li>
-            <li className="text-center w-1/4 md:m-0 justify-center">
+            <li className="flex justify-center w-1/4 md:m-0">
               <Link href="tel:+51-928-408-503">
                 <a
-                  className="flex items-center justify-center"
+                  type="button"
+                  className="flex items-center justify-center bg-green-900 w-11 h-11 rounded-full shadow-md hover:bg-green-600"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
