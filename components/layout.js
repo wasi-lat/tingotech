@@ -29,7 +29,7 @@ export default function Layout({ children }) {
         <meta property="og:title" content="TingoTech" />
         <meta property="og:description" content="TingoTech Servicio Técnico de Laptops y PC's" />
         <meta property="og:image" content="/img/logo_2020.png" />
-        <meta property="og:image:alt" content="TingoTech Servicio Técnico de Laptops y PC's" />
+        <meta property="og:image:alt" content="TingoTech" />
         <meta property="og:url" content="https://www.tingotech.com/" />
         <meta property="og:site_name" content="TingoTech" />
         <meta property="og:locale" content="es" />
