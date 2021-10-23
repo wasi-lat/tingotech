@@ -10,7 +10,7 @@ export default function Navbar() {
               <img
                 className="object-contain h-full"
                 src="/img/tingotech.png"
-                alt="Tingo Tech"
+                alt="TingoTech"
               />
             </a>
           </Link>

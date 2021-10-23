@@ -1,26 +1,24 @@
-import Link from 'next/link'
-import { MapPin, Mail, Phone, Facebook, Instagram } from 'react-feather'
-
+import Link from "next/link";
+import { MapPin, Mail, Phone, Facebook, Instagram } from "react-feather";
 
 export default function Footer() {
   return (
-    <footer className="text-white" style={{backgroundColor: '#113423'}}>
+    <footer className="text-white" style={{ backgroundColor: "#113423" }}>
       <div className="container mx-auto flex flex-col md:flex-row pt-10 pb-10">
         <div className="flex flex-col items-center w-full md:w-2/12 px-5 md:mx-28">
           <img className="pb-4" src="/img/tingotech.png" alt="Logo TingoTech" />
           <p className="text-xs text-justify">
-            Tingo Tech es una empresa joven emprendedora que brinda 
-            soluciones innovadoras en el sector informático, 
-            contribuyendo al desarrollo de la comunidad tingaleza 
-            con responsabilidad social.
+            Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo
+            y correctivo. Instalación de programas en general. Asesoría técnica
+            personalizada. Transparencia y puntualidad nos diferencia.
           </p>
         </div>
- 
+
         <div className="w-full md:w-3/12 pl-8 pt-7">
           <h3 className="font-bold mb-4">Contactos</h3>
           <ul>
             <li className="text-sm py-1 flex items-center">
-              <MapPin size={16} className="mr-1"/>
+              <MapPin size={16} className="mr-1" />
               Comite 2 de Brisas
             </li>
             <li className="text-sm py-1 flex items-center">
@@ -30,7 +28,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Mail size={16} className="mr-1"/>
+                  <Mail size={16} className="mr-1" />
                   hola@tingotech.com
                 </a>
               </Link>
@@ -42,7 +40,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <Phone size={16} className="mr-1"/>
+                  <Phone size={16} className="mr-1" />
                   928 408 503
                 </a>
               </Link>
@@ -61,7 +59,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   title="Facebook"
                 >
-                  <Facebook size={16} className="mr-1"/>
+                  <Facebook size={16} className="mr-1" />
                   Facebook
                 </a>
               </Link>
@@ -74,18 +72,14 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   title="Instagram"
                 >
-                  <Instagram size={16} className="mr-1"/>
+                  <Instagram size={16} className="mr-1" />
                   Instagram
                 </a>
               </Link>
             </li>
             <li className="text-sm py-1 flex items-center">
               <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Whatsapp"
-                >
+                <a target="_blank" rel="noopener noreferrer" title="Whatsapp">
                   <i className="mr-2 fab fa-whatsapp"></i>
                   Whatsapp
                 </a>
@@ -101,13 +95,13 @@ export default function Footer() {
           <i className="m-0.5 fab fa-cc-paypal" title="Paypal"></i>
           <i className="m-0.5 fas fa-money-check-alt" title="Efectivo"></i>
         </div>
-
       </div>
 
       <div className="py-1 text-center text-xs bg-black text-white font-light opacity-70">
-        <p>Made with ☕ by <b>Goplatin</b> © 2021 TINGOTECH. All rights reserved</p>
+        <p>
+          Made with ☕ by <b>Goplatin</b> © 2021 TINGOTECH. All rights reserved
+        </p>
       </div>
-
     </footer>
   );
 }
