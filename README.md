@@ -1,5 +1,7 @@
 # TingoTech
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b0ec6efb-5622-40f2-a9e7-1b8565562013/deploy-status)](https://app.netlify.com/sites/kind-visvesvaraya-100a04/deploys)
+
 To setup the project:
 
 First use `yarn` to install all the package dependencies for the Nextjs project
