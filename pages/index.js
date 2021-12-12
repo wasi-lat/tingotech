@@ -47,12 +47,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="hidden relative md:block w-1/2" style={{ height: "34rem" }}>
-              <Image
-                layout="fill"
-                objectFit="cover"
-                src="/img/servicio_tecnico.png"
-                alt="Servicio Técnico"
-              />
+              <img className="object-fill" src="/img/servicio_tecnico.png" alt="Servicio Técnico" title="Servicio Técnico" />
             </div>
           </div>
         </section>
