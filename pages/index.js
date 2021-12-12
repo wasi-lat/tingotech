@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image"
 
 import Layout from "@components/layout";
 import BrandSlide from "@components/homepage/brand-slide";
@@ -46,14 +47,12 @@ export default function Home() {
               </Link>
             </div>
             <div className="hidden relative md:block w-1/2" style={{ height: "34rem" }}>
-              <svg className="w-full h-full">
-                <use xlinkHref="#bg-fly" />
-              </svg>
-              <div className="absolute w-1/2 left-10 right-0 m-auto custom-animate" style={{top: '40%'}}>
-                <svg className="w-full h-full">
-                  <use xlinkHref="#human" />
-                </svg>
-              </div>
+              <Image
+                layout="fill"
+                objectFit="cover"
+                src="/img/servicio_tecnico.png"
+                alt="Servicio Técnico"
+              />
             </div>
           </div>
         </section>
