@@ -595,7 +595,7 @@ export default function Home() {
             </p> */}
           </div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1240.159890967003!2d-76.00390859470079!3d-9.31003391194305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a64147eb2d60fb%3A0xabef18ecac7d4a4a!2sTingo%20Tech!5e0!3m2!1ses-419!2spe!4v1620782000731!5m2!1ses-419!2spe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.3995508316143!2d-76.00153068532049!3d-9.297819599388388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a6418f462cf56d%3A0x8622ed977b0cd2e3!2sPucallpa%20432%2C%20Tingo%20Mar%C3%ADa%2010131!5e0!3m2!1ses-419!2spe!4v1661349346706!5m2!1ses-419!2spe"
             frameBorder="0"
             allowFullScreen
             title="AA.HH Brisas del Huallaga, Av. Arenales, comite 2 MZ. G, Tingo María , Perú"

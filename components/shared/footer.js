@@ -19,7 +19,7 @@ export default function Footer() {
           <ul>
             <li className="text-sm py-1 flex items-center">
               <MapPin size={16} className="mr-1" />
-              Comite 2 de Brisas
+                Jiron Pucalla 432
             </li>
             <li className="text-sm py-1 flex items-center">
               <Link href="mailto:hola@tingotech.com">
