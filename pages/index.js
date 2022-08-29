@@ -587,12 +587,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container mx-auto py-20">
+        {/* <section className="container mx-auto py-20">
           <div className="flex flex-col items-center mb-10">
             <h2 className="font-bold text-2xl mb-3">ENCUENTRANOS</h2>
-            {/* <p className="text-gray-400 text-sm text-center w-80">
+            <p className="text-gray-400 text-sm text-center w-80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p> */}
+            </p>
           </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.3995508316143!2d-76.00153068532049!3d-9.297819599388388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a6418f462cf56d%3A0x8622ed977b0cd2e3!2sPucallpa%20432%2C%20Tingo%20Mar%C3%ADa%2010131!5e0!3m2!1ses-419!2spe!4v1661349346706!5m2!1ses-419!2spe"
@@ -606,7 +606,7 @@ export default function Home() {
               background: "#999",
             }}
           />
-        </section>
+        </section> */}
       </main>
     </Layout>
   );
