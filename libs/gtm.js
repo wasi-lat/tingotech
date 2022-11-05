@@ -1,8 +1,8 @@
-export const GTM_ID = process.env.GTM_ID
+export const GTM_ID = process.env.GTM_ID;
 
 export const pageview = (url) => {
   window.dataLayer.push({
-    event: 'pageview',
+    event: "pageview",
     page: url,
-  })
-}
+  });
+};
