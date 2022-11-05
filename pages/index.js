@@ -3,9 +3,9 @@ import Link from "next/link";
 import Layout from "@components/layout";
 import BrandSlide from "@components/homepage/brand-slide";
 import TestimonialsSlides from "@components/homepage/testimonials-slides";
-import ServiceSlideRepowering from '@components/homepage/service-slide-repowering';
-import ServiceSlideSupport from '@components/homepage/service-slide-support';
-import ServiceSlideVirus from '@components/homepage/service-slide-virus';
+import ServiceSlideRepowering from "@components/homepage/service-slide-repowering";
+import ServiceSlideSupport from "@components/homepage/service-slide-support";
+import ServiceSlideVirus from "@components/homepage/service-slide-virus";
 
 export default function Home() {
   return (
@@ -15,25 +15,25 @@ export default function Home() {
           className="relative bg-no-repeat bg-fixed bg-cover py-24"
           style={{ backgroundImage: "url(/img/principal.jpg)" }}
         >
-          <span 
+          <span
             className="block absolute top-0 left-0 h-full w-full opacity-90"
             style={{
               background:
                 "linear-gradient(257.86deg, #0E5541 0%, #217039 65.94%, #358B30 100%)",
             }}
-          >
-          </span>
+          ></span>
           <div className="relative container mx-auto flex items-center w-full md:w-5/6">
             <div className="w-full md:w-1/2 mx-2">
               <h2 className="font-bold text-4xl md:text-6xl text-white leading-tight">
                 Servicio Técnico y Reparaciones de Laptops
               </h2>
               <p className="mt-5 mb-8 text-lg font-light text-white">
-              Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo y correctivo. 
-              Instalación de programas en general. Asesoría técnica personalizada. 
-              Transparencia y puntualidad nos diferencia.
+                Brindamos servicio técnico de Laptops y PCs. Mantenimiento
+                preventivo y correctivo. Instalación de programas en general.
+                Asesoría técnica personalizada. Transparencia y puntualidad nos
+                diferencia.
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -45,8 +45,16 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="hidden relative md:block w-1/2" style={{ height: "34rem" }}>
-              <img className="object-fill" src="/img/servicio_tecnico.png" alt="Servicio Técnico" title="Servicio Técnico" />
+            <div
+              className="hidden relative md:block w-1/2"
+              style={{ height: "34rem" }}
+            >
+              <img
+                className="object-fill"
+                src="/img/servicio_tecnico.png"
+                alt="Servicio Técnico"
+                title="Servicio Técnico"
+              />
             </div>
           </div>
         </section>
@@ -61,7 +69,6 @@ export default function Home() {
             </p> */}
           </div>
           <div className="flex flex-col items-center mx-auto md:w-3/5 lg:w-5/6">
-            
             <div className="flex flex-col md:flex-row w-full mx-5 bg-white my-5 rounded-md shadow-md">
               <div className="md:w-1/2 w-full py-6 pr-2 px-8">
                 <div className="flex items-center justify-center mb-3 h-10 w-10 bg-green-200 rounded-full">
@@ -73,11 +80,12 @@ export default function Home() {
                   Soporte Técnico de Laptops y PCs
                 </h3>
                 <p className="text-sm">
-                  Nos encargamos de dar solución a cualquier problema relacionado
-                  con tu laptop o PC, realizamos mantenimiento físico y lógico,
-                  ello te ayudará prevenir futuros fallos, también contamos con
-                  repuestos (HDDs, SSDs, Memorias RAM), reparación de bisagras,
-                  reparación de placas, importación de placas nuevas.
+                  Nos encargamos de dar solución a cualquier problema
+                  relacionado con tu laptop o PC, realizamos mantenimiento
+                  físico y lógico, ello te ayudará prevenir futuros fallos,
+                  también contamos con repuestos (HDDs, SSDs, Memorias RAM),
+                  reparación de bisagras, reparación de placas, importación de
+                  placas nuevas.
                 </p>
               </div>
               <div className="md:w-1/2 w-full">
@@ -92,13 +100,11 @@ export default function Home() {
                     <use xlinkHref="#security" />
                   </svg>
                 </div>
-                <h3 className="font-bold pb-3">
-                  Repotenciamiento de Equipos
-                </h3>
+                <h3 className="font-bold pb-3">Repotenciamiento de Equipos</h3>
                 <p className="text-sm">
                   Realizamos un diagnóstico minucioso de tu computadora y
-                  brindamos las recomendaciones apropiadas para que tu equipo gane
-                  rendimiento.
+                  brindamos las recomendaciones apropiadas para que tu equipo
+                  gane rendimiento.
                 </p>
               </div>
               <div className="md:w-1/2 w-full">
@@ -113,19 +119,16 @@ export default function Home() {
                     <use xlinkHref="#lightning" />
                   </svg>
                 </div>
-                <h3 className="font-bold pb-3">
-                  Sofware Antivirus y Windows
-                </h3>
+                <h3 className="font-bold pb-3">Software Antivirus y Windows</h3>
                 <p className="text-sm">
-                  Contamos con licencias genuinas ESET NOD32 y Windows, ofrecemos
-                  garantía por su compra.
+                  Contamos con licencias genuinas ESET NOD32 y Windows,
+                  ofrecemos garantía por su compra.
                 </p>
               </div>
               <div className="md:w-1/2 w-full">
                 <ServiceSlideVirus />
               </div>
             </div>
-
           </div>
         </section>
 
@@ -138,7 +141,7 @@ export default function Home() {
         >
           <div className="container mx-auto w-5/6 flex flex-col items-center">
             <h2 className="font-bold text-4xl text-white text-center">
-              SERVICIO A DOMICILO
+              SERVICIO A DOMICILIO
             </h2>
             <p
               className="text-white text-center my-10"
@@ -149,7 +152,7 @@ export default function Home() {
               de técnicos están capacitados para resolver cualquier problema de
               hardware o software en tu PC ó Laptop
             </p>
-            <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech quisiera pedir un servicio a domicilio para la dirección...">
+            <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech quisiera pedir un servicio a domicilio para la dirección...">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -183,7 +186,7 @@ export default function Home() {
                 Estabas usando tu equipo normal y de pronto al siguiente día
                 dejó de encender.
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, mi computadora no enciente 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, mi computadora no enciente 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -204,7 +207,7 @@ export default function Home() {
               <p className="text-sm py-3">
                 Cuando trabajas o cuando juegas, tenemos la solución
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, me salen pantallazos azules 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, me salen pantallazos azules 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -226,7 +229,7 @@ export default function Home() {
                 Enciende en una eternidad tu equipo o los programas abren muy
                 lento
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, mi Windows va muy lento 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, mi Windows va muy lento 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -249,7 +252,7 @@ export default function Home() {
               <p className="text-sm py-3">
                 No te preocupes, recuperamos tus archivos en tiempo récord.
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, he perdido (elimine!) todos mis archivos 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, he perdido (elimine!) todos mis archivos 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -271,7 +274,7 @@ export default function Home() {
                 Realizamos mantenimiento lógico a tu sistema, eliminación virus
                 y prevención a futuras infecciones
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, tengo muchos virus en la máquina 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, tengo muchos virus en la máquina 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -292,7 +295,7 @@ export default function Home() {
               <p className="text-sm py-3">
                 Traemos a la vida tus equipos que no encienden o no dan imagen
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech, necesito urgente una reparación de placa 😢...">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech, necesito urgente una reparación de placa 😢...">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -368,7 +371,7 @@ export default function Home() {
               CONTAMOS CON EL REGISTRO NACIONAL DE PROVEEDORES (RNP) PARA
               TRABAJAR CON EL ESTADO PERUANO.
             </h2>
-            <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola TingoTech, le escribimos de la institución {Escriba nombre de su institución aquí} para...">
+            <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola TingoTech, le escribimos de la institución {Escriba nombre de su institución aquí} para...">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -551,7 +554,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center">
             <Link href="https://pe.linkedin.com/in/kevienfox">
-              <a title="Kevin" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
+              <a
+                title="Kevin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-1/5 mx-5 py-6 px-8"
+              >
                 <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
                   <img
                     className="object-contain w-full h-full"
@@ -568,7 +576,12 @@ export default function Home() {
               </a>
             </Link>
             <Link href="https://www.linkedin.com/in/daison-david-juancho-adriano-441490bb/">
-              <a title="Juan" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/5 mx-5 py-6 px-8">
+              <a
+                title="Juan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-1/5 mx-5 py-6 px-8"
+              >
                 <div className="block overflow-hidden h-48 w-48 mx-auto hover:shadow-xl">
                   <img
                     className="object-cover w-full h-full"
