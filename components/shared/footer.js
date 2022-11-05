@@ -8,9 +8,10 @@ export default function Footer() {
         <div className="flex flex-col items-center w-full md:w-2/12 px-5 md:mx-28">
           <img className="pb-4" src="/img/tingotech.png" alt="Logo TingoTech" />
           <p className="text-xs text-justify">
-            Bridamos servicio técnico de Laptops y PCs. Mantenimiento preventivo
-            y correctivo. Instalación de programas en general. Asesoría técnica
-            personalizada. Transparencia y puntualidad nos diferencia.
+            Brindamos servicio técnico de Laptops y PCs. Mantenimiento
+            preventivo y correctivo. Instalación de programas en general.
+            Asesoría técnica personalizada. Transparencia y puntualidad nos
+            diferencia.
           </p>
         </div>
 
@@ -19,7 +20,7 @@ export default function Footer() {
           <ul>
             <li className="text-sm py-1 flex items-center">
               <MapPin size={16} className="mr-1" />
-                Comite 2 de Brisas
+              Comité 2 de Brisas
             </li>
             <li className="text-sm py-1 flex items-center">
               <Link href="mailto:hola@tingotech.com">
@@ -41,7 +42,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                 >
                   <Phone size={16} className="mr-1" />
-                  928 408 503
+                  986 077 683
                 </a>
               </Link>
             </li>
@@ -78,10 +79,10 @@ export default function Footer() {
               </Link>
             </li>
             <li className="text-sm py-1 flex items-center">
-              <Link href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
-                <a target="_blank" rel="noopener noreferrer" title="Whatsapp">
+              <Link href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar...">
+                <a target="_blank" rel="noopener noreferrer" title="WhatsApp">
                   <i className="mr-2 fab fa-whatsapp"></i>
-                  Whatsapp
+                  WhatsApp
                 </a>
               </Link>
             </li>

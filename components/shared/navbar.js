@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, Facebook, Instagram, } from 'react-feather'
+import { Phone, Facebook, Instagram } from "react-feather";
 
 export default function Navbar() {
   return (
@@ -50,7 +50,10 @@ export default function Navbar() {
                   rel="noopener noreferrer"
                   title="Facebook"
                 >
-                  <Facebook size={18} className="text-white font-normal stroke-2"/>
+                  <Facebook
+                    size={18}
+                    className="text-white font-normal stroke-2"
+                  />
                 </a>
               </Link>
             </li>
@@ -63,12 +66,18 @@ export default function Navbar() {
                   rel="noopener noreferrer"
                   title="Instagram"
                 >
-                  <Instagram size={18} className="center text-white font-normal stroke-2"/>
+                  <Instagram
+                    size={18}
+                    className="center text-white font-normal stroke-2"
+                  />
                 </a>
               </Link>
             </li>
             <li className="flex justify-center w-1/4 md:m-0">
-              <Link scroll={true} href="https://api.whatsapp.com/send?phone=51928408503&text=Hola Tío TingoTech te quería consultar...">
+              <Link
+                scroll={true}
+                href="https://api.whatsapp.com/send?phone=51986077683&text=Hola Tío TingoTech te quería consultar..."
+              >
                 <a
                   type="button"
                   className="flex items-center justify-center bg-green-900 w-11 h-11 rounded-full shadow-md hover:bg-green-600"
@@ -76,7 +85,10 @@ export default function Navbar() {
                   rel="noopener noreferrer"
                   title="Whatsapp"
                 >
-                  <svg className="h-5 w-5 mb-" style={{ marginBottom: "0.15rem" }}>
+                  <svg
+                    className="h-5 w-5 mb-"
+                    style={{ marginBottom: "0.15rem" }}
+                  >
                     <use xlinkHref="#whatsapp" />
                   </svg>
                 </a>
@@ -90,7 +102,10 @@ export default function Navbar() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <Phone size={18} className="text-white font-normal stroke-2"/>
+                  <Phone
+                    size={18}
+                    className="text-white font-normal stroke-2"
+                  />
                 </a>
               </Link>
             </li>
