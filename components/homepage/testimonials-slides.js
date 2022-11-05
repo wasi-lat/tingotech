@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-import { User } from 'react-feather'
+import { User } from "react-feather";
 
 const responsive = {
   superLargeDesktop: {

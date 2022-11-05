@@ -1,13 +1,13 @@
-import Document, {Html, Head, Main, NextScript } from 'next/document';
-import { GTM_ID } from '@libs/gtm'
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import { GTM_ID } from "@libs/gtm";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
-    return {... initialProps}
+    return { ...initialProps };
   }
-  render(){
-    return(
+  render() {
+    return (
       <Html>
         <Head>
           {/* Google Tag Manager - Global base code */}
@@ -29,14 +29,14 @@ class MyDocument extends Document {
               src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
               height="0"
               width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
+              style={{ display: "none", visibility: "hidden" }}
             />
           </noscript>
-          <Main/>
-          <NextScript/>
+          <Main />
+          <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
