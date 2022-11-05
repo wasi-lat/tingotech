@@ -28,7 +28,7 @@ export default function Home() {
                 Servicio Técnico y Reparaciones de Laptops
               </h2>
               <p className="mt-5 mb-8 text-lg font-light text-white">
-                Bridamos servicio técnico de Laptops y PCs. Mantenimiento
+                Brindamos servicio técnico de Laptops y PCs. Mantenimiento
                 preventivo y correctivo. Instalación de programas en general.
                 Asesoría técnica personalizada. Transparencia y puntualidad nos
                 diferencia.
@@ -119,7 +119,7 @@ export default function Home() {
                     <use xlinkHref="#lightning" />
                   </svg>
                 </div>
-                <h3 className="font-bold pb-3">Sofware Antivirus y Windows</h3>
+                <h3 className="font-bold pb-3">Software Antivirus y Windows</h3>
                 <p className="text-sm">
                   Contamos con licencias genuinas ESET NOD32 y Windows,
                   ofrecemos garantía por su compra.
@@ -141,7 +141,7 @@ export default function Home() {
         >
           <div className="container mx-auto w-5/6 flex flex-col items-center">
             <h2 className="font-bold text-4xl text-white text-center">
-              SERVICIO A DOMICILO
+              SERVICIO A DOMICILIO
             </h2>
             <p
               className="text-white text-center my-10"
